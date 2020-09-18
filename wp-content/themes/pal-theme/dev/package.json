@@ -1,0 +1,23 @@
+{
+  "name": "default-gulp",
+  "version": "1.0.0",
+  "description": "Defaul gulp folder for Fron-end developing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Front-end developer ONYX1812",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "imagemin-pngquant": "^7.0.0"
+  }
+}

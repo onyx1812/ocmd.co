@@ -1,0 +1,39 @@
+@import 'variables/colors';
+@import 'base/all';
+
+@import 'partials/main-header';
+@import 'partials/main-footer';
+@import 'partials/form';
+
+@import 'partials/products';
+
+.container-fluid{
+	@media(min-width:1600px){
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+}
+
+.page-default{
+	padding: 50px 0;
+	p{
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+	h3{
+		font-size: 18px;
+		font-weight: 700;
+		margin-bottom: 15px;
+		margin-top: 30px;
+	}
+
+	ul{
+		list-style: outside;
+		padding-left: 30px;
+		margin-bottom: 30px;
+		li{
+			margin: 15px 0;
+			font-size: 18px;
+		}
+	}
+}

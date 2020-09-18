@@ -1,0 +1,49 @@
+.star{
+	&-rating{
+		display: flex;
+		li{
+			font-size: 18px;
+			letter-spacing: -2px;
+			font-family: Arial !important;
+			position: relative;
+			color: #EB6537;
+			@media(min-width:992px){
+				font-size: 20px;
+			}
+			@media(min-width:1200px){
+				font-size: 24px;
+			}
+		}
+	}
+	&-f{
+		&:before{
+			content:"★";
+		}
+	}
+	&-h{
+		&:before{
+			content:"★";
+		}
+		i{
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 1;
+			&:before{
+				content:"☆"
+			}
+			&:after{
+				content: "";
+				background: #fff;
+				width: 50%; right: 0; top: 0; bottom: 0;
+				position: absolute;
+				z-index: -1;
+			}
+		}
+	}
+	&-e{
+		&:before{
+			content:"☆"
+		}
+	}
+}

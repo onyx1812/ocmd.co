@@ -1,0 +1,98 @@
+.mini-cart{
+	position: relative;
+	width: 100%;
+	& > img{
+		display: block;
+		float: right;
+	}
+	&:hover{
+		.widget_shopping_cart{
+			max-height: 1000px;
+			padding: 15px;
+			box-shadow: 0px 4px 4px rgba(0,0,0, .4);
+			visibility: visible;
+		}
+	}
+	.widget_shopping_cart{
+		visibility: hidden;
+		max-height: 0px;
+		overflow: hidden;
+		position: absolute;
+		top: 100%; right: 0;
+		padding: 15px;
+		z-index: 10;
+		background: #fff;
+		transition: .5s ease-in-out;
+		width: 280px;
+		li{
+			position: relative;
+			padding-bottom: 15px;
+			margin-bottom: 15px;
+			border-bottom: 1px solid rgba(0,0,0, .2);
+		}
+		a.remove{
+			display: block;
+			width: 16px;
+			height: 16px;
+			text-align: center;
+			line-height: 16px;
+			color: red;
+			text-decoration: none;
+			font-size: 20px;
+			opacity: .4;
+			position: absolute;
+			right: 0; top: 0;
+		}
+		span.quantity{
+			position: absolute;
+			left: 70px; bottom: 15px;
+			span{
+				font-weight: 700;
+			}
+		}
+		a+a{
+			display: flex;
+			font-size: 15px;
+			color: #000;
+			text-decoration: none;
+			padding-right: 16px;
+			img{
+				width: 60px;
+				height: auto;
+				margin-right: 10px;
+				float: left;
+			}
+		}
+		.woocommerce-mini-cart{
+			&__total{
+				text-align: right;
+			}
+			&__empty-message{
+				font-size: 14px;
+			}
+			&__buttons{
+				display: flex;
+				justify-content: space-between;
+				padding-top: 15px;
+				a{
+					flex: calc(50% - 5px);
+					max-width: calc(50% - 5px);
+					display: block;
+					padding: 7.5px;
+					background: $text-color;
+					border: 1px solid $text-color;
+					color: $main-color;
+					text-decoration: none;
+					font-size: 12px;
+					text-transform: uppercase;
+					text-align: center;
+					transition: .3s ease;
+					&:hover{
+						background: $main-color;
+						color: $text-color;
+					}
+				}
+			}
+		}
+	}
+}

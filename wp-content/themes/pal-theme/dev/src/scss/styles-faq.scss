@@ -1,0 +1,37 @@
+@import 'variables/colors';
+@import 'base/all';
+
+@import 'partials/main-header';
+@import 'partials/main-footer';
+@import 'partials/form';
+
+@import 'partials/faq';
+
+.page-faq{
+	padding: 50px 0;
+	ul{
+		list-style: outside;
+		padding-left: 30px;
+		margin-bottom: 30px;
+		li{
+			margin: 15px 0;
+			font-size: 14px;
+			@media(min-width:768px){
+				font-size: 18px;
+			}
+		}
+	}
+	h2{
+		font-family: Playfair Display;
+		font-size: 22px;
+		line-height: 1.2;
+		margin-bottom: 25px;
+		@media(min-width:768px){
+			font-size: 36px;
+			line-height: 48px;
+		}
+	}
+	.box{
+		margin-bottom: 30px;
+	}
+}

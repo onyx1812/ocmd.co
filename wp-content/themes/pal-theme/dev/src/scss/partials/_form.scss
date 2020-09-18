@@ -1,0 +1,72 @@
+form{
+	input, textarea, select{
+		display: block;
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+		border: 1px solid $text-color;
+		font-family: Montserrat;
+		box-sizing: border-box;
+		font-size: 14px;
+		height: 55px;
+		@media(min-width:768px){
+			font-size: 18px;
+			&[name="s_email"]{
+				height: 70px;
+				& + [type="submit"]{
+					height: 70px;
+				}
+			}
+		}
+		&[type="submit"]{
+			background: $text-color;
+			color: $main-color;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 12px;
+			letter-spacing: 0.04em;
+			width: 180px;
+			@media(min-width:768px){
+				font-size: 18px;
+				width: 225px;
+			}
+			&:hover{
+				color: $text-color;
+				background: $main-color;
+			}
+		}
+	}
+	button[type="submit"]{
+		background: $text-color;
+		color: $main-color;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 12px;
+		height: 55px;
+		letter-spacing: 0.04em;
+		width: 100%;
+		@media(min-width:768px){
+			font-size: 18px;
+		}
+		&:hover{
+			color: $text-color;
+			background: $main-color;
+		}
+	}
+	textarea{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		min-height: 100px;
+		resize:none;
+	}
+	label{
+		display: block;
+		margin-bottom: 5px;
+		font-family: Montserrat;
+		font-weight: 300;
+		font-size: 18px;
+	}
+	.field{
+		margin-bottom: 15px;
+	}
+}

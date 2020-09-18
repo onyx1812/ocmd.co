@@ -1,0 +1,23 @@
+# Server file
+.htaccess
+
+# Dev filder
+node_modules/
+
+# Archive extantions
+*.log
+*.sql
+*.sqlite
+*.zip
+
+# WordPress ignores
+wp-content/plugins/
+wp-content/cache/
+wp-config.php
+wp-content/wp-cache-config.php
+wp-content/advanced-cache.php
+wp-content/uploads/wc-logs/
+
+# Add rules from terminal
+# git update-index --skip-worktree -- wp-config.php
+# git update-index --skip-worktree -- .htaccess
