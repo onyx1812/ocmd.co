@@ -7,7 +7,7 @@ while ( have_posts() ) : the_post(); ?>
 
 <section class="page-faq">
 	<div class="container">
-		<h1 class="section-title">Sara, Tracking, Shipping & Delivery</h1>
+		<h1 class="section-title">OCMD, Tracking, Shipping & Delivery</h1>
 		<div class="box">
 			<h2>Shipping F.A.Q</h2>
 			<ul>
@@ -23,12 +23,12 @@ while ( have_posts() ) : the_post(); ?>
 		<div class="box">
 			<h2>Tracking Info</h2>
 			<ul>
-				<li>Once your order has been shipped, you will receive a shipment confirmation e-mail. The e-mail will contain shipment details and a tracking number for your purchase. For additional shipping & tracking information you can contact us at support@lavielabs.com</li>
+				<li>Once your order has been shipped, you will receive a shipment confirmation e-mail. The e-mail will contain shipment details and a tracking number for your purchase. For additional shipping & tracking information you can contact us at support@ocmd.co</li>
 			</ul>
 		</div>
 
 		<div class="box">
-			<h2>Sara F.A.Q</h2>
+			<h2>OCMD F.A.Q</h2>
 			<div class="faqs">
 				<div class="faq">
 					<div class="question">How long does it take to see results?</div>
@@ -36,7 +36,7 @@ while ( have_posts() ) : the_post(); ?>
 				</div>
 				<div class="faq">
 					<div class="question">Was Hydrolift tested on animals?</div>
-					<div class="answer">No! Lavie loves all living things. None of our products are ever tested on animals.</div>
+					<div class="answer">No! OCMD all living things. None of our products are ever tested on animals.</div>
 				</div>
 				<div class="faq">
 					<div class="question">Is Hydrolift suitable for all skin types?</div>

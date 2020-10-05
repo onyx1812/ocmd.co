@@ -44,9 +44,8 @@ gulp.task('images', function () {
 
 gulp.task('browser-sync', ['sass', 'js'], function() {
 	browserSync.init({
-		proxy: "sara7skin.loc",
-		notify: false,
-		port: 5050
+		proxy: "ocmd.loc",
+		port: 8080
 	});
 });
 
@@ -56,7 +55,7 @@ gulp.task('default', ['browser-sync', 'sass', 'images', 'js'], function () {
 	gulp.watch('src/js/**/*.js', ['js']);
 
 	// gulp.watch('../css/*.css').on('change', browserSync.reload);
-	gulp.watch('../js/*.js').on('change', browserSync.reload);
+	gulp.watch('../js/**/*.js').on('change', browserSync.reload);
 	gulp.watch('../partials/**/*.php').on('change', browserSync.reload);
 	gulp.watch('../templates/**/*.php').on('change', browserSync.reload);
 });

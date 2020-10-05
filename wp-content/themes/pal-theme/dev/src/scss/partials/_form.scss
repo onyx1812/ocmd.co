@@ -19,7 +19,8 @@ form{
 			}
 		}
 		&[type="submit"]{
-			background: $text-color;
+			border:none;
+			background: $btn-bg;
 			color: $main-color;
 			text-transform: uppercase;
 			font-weight: bold;
@@ -31,8 +32,7 @@ form{
 				width: 225px;
 			}
 			&:hover{
-				color: $text-color;
-				background: $main-color;
+				background: $active-color;
 			}
 		}
 	}

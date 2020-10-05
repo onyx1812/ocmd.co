@@ -5,7 +5,7 @@
 	</div>
 	<div class="faq">
 		<div class="question">Was Hydrolift tested on animals?</div>
-		<div class="answer">No! Lavie loves all living things. None of our products are ever tested on animals.</div>
+		<div class="answer">No! OCMD all living things. None of our products are ever tested on animals.</div>
 	</div>
 	<div class="faq">
 		<div class="question">Is Hydrolift suitable for all skin types?</div>

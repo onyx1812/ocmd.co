@@ -1,5 +1,5 @@
 # Server file
-.htaccess
+# .htaccess
 
 # Dev filder
 node_modules/
@@ -11,12 +11,12 @@ node_modules/
 *.zip
 
 # WordPress ignores
-wp-content/plugins/
-wp-content/cache/
-wp-config.php
-wp-content/wp-cache-config.php
-wp-content/advanced-cache.php
-wp-content/uploads/wc-logs/
+# wp-content/plugins/
+# wp-content/cache/
+# wp-config.php
+# wp-content/wp-cache-config.php
+# wp-content/advanced-cache.php
+# wp-content/uploads/wc-logs/
 
 # Add rules from terminal
 # git update-index --skip-worktree -- wp-config.php

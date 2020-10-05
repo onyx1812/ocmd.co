@@ -2,6 +2,9 @@
 
 define('ROOT', get_template_directory_uri());
 define('IMG', ROOT . '/img');
+function IMG(){
+  echo IMG;
+}
 define('VIDEO', ROOT . '/video');
 
 function replace_core_jquery_version() {
@@ -268,4 +271,33 @@ function custom_filter_wc_cart_item_remove_link($product_name, $cart_item, $cart
         ), $cart_item_key);
         return $product_name;
     }
+}
+
+
+
+
+
+
+function product_custom($id, $best){
+  $product = wc_get_product( $id );
+  $checkout_url = WC()->cart->get_checkout_url();
+  if($best){
+    $class = 'product product-best';
+  } else {
+    $class = 'product';
+  }
+
+  echo '
+    <div class="'. $class .'">
+      <div class="product-quantity">'. get_field('simple_jars', $id) .'</div>
+      <div class="product-inner">
+        <div class="product-price">'. get_field('simple_price', $id) .'</div>
+        <div class="product-save">'. get_field('simple_save', $id) .'</div>
+      </div>
+      <footer>
+        <a href="'.$checkout_url.'?add-to-cart='.$id.'" class="buy-now button">Add To Cart</a>
+        <span>'. get_field('simple_ship', $id) .'</span>
+      </footer>
+    </div>
+  ';
 }

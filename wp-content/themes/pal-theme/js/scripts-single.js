@@ -150,3 +150,24 @@ customVarsoBJ.forEach(item => {
 setTimeout( ()=>{
 	document.getElementById('var_1').click();
 }, 0);
+
+  const galleryNav = document.querySelectorAll('.gallery-nav li');
+  galleryNav.forEach(item => {
+    item.addEventListener('click', e => {
+      e.preventDefault();
+      const imgUrl = e.target.dataset.src;
+      document.querySelector('.gallery-img').src = imgUrl;
+    });
+  });
+
+  const tabs = document.querySelectorAll('[data-tab]');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', e => {
+      e.preventDefault();
+      const tab = '.'+e.target.dataset.tab;
+      document.querySelector('.producto-tabs__tab.active').classList.remove('active');
+      document.querySelector('.producto-tabs__nav li.active').classList.remove('active');
+      document.querySelector(tab).classList.add('active');
+      e.target.classList.add('active');
+    });
+  });

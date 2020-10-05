@@ -8,14 +8,14 @@
 				</form>
 				<div class="row">
 					<div class="col">
-						<a href="<?php echo home_url(); ?>" class="logo"><img src="<?php echo IMG.'/logo.svg'; ?>" alt=""></a>
+						<a href="<?php echo home_url(); ?>" class="logo"><img src="<?php echo IMG.'/logo.png'; ?>" alt=""></a>
 					</div>
 					<div class="col">
 						<p class="call">
 							Need Help? Contact Us 24/7 <br>
 							US & CA: <a href="tel:+13152774969">+1 (315) 277-4969</a> <br>
 							UK & EU: <a href="tel:+442039847994">+44 (20) 3984-7994</a> <br><br>
-							<a href="mailto:support@sara7skin.com">support@sara7skin.com</a> <br><br>
+							<a href="mailto:support@ocmd.co">support@ocmd.co</a> <br><br>
 							US: 144-42 Jewel Avenue, <br>
 							FLUSHING, NY 11367 <br><br>
 							ISRAEL: 6 Moshe Hess St., Lod
