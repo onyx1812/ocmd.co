@@ -80,45 +80,37 @@ $id = get_the_ID();
           </div>
           <div class="producto-tabs__tab tab2">
             <div class="row">
-              <div class="col-12 col-lg-4">
-                <div class="product">
-                  <div class="product-quantity">1<br>Jar</div>
-                  <div class="product-inner">
-                    <div class="product-price">$44<span>/ea Monthly</span></div>
-                    <div class="product-save">You Save $23</div>
-                  </div>
-                  <footer>
-                    <a href="#">Add To Cart</a>
-                    <span>+ SHIPPING $4.95</span>
-                  </footer>
+              <?php if ($id === 1307): ?>
+                <div class="col-12 col-lg-4">
+                  <?php product_custom(1504, false); ?>
                 </div>
-              </div>
-              <div class="col-12 col-lg-4">
-                <div class="product product-best">
-                  <div class="product-quantity">6<br>Jars</div>
-                  <div class="product-inner">
-                    <div class="product-price">$36<span>/ea Monthly</span></div>
-                    <div class="product-save">You Save $186</div>
-                  </div>
-                  <footer>
-                    <a href="#">Add To Cart</a>
-                    <span>+ Free Shipping</span>
-                  </footer>
+                <div class="col-12 col-lg-4">
+                  <?php product_custom(1506, true); ?>
                 </div>
-              </div>
-              <div class="col-12 col-lg-4">
-                <div class="product">
-                  <div class="product-quantity">3<br>Jars</div>
-                  <div class="product-inner">
-                    <div class="product-price">$39<span>/ea Monthly</span></div>
-                    <div class="product-save">You Save $85</div>
-                  </div>
-                  <footer>
-                    <a href="#">Add To Cart</a>
-                    <span>+ Free Shipping</span>
-                  </footer>
+                <div class="col-12 col-lg-4">
+                  <?php product_custom(1505, false); ?>
                 </div>
-              </div>
+              <?php elseif ($id === 1303): ?>
+                <div class="col-12 col-lg-4">
+                  <?php product_custom(1507, false); ?>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <?php product_custom(1509, true); ?>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <?php product_custom(1508, false); ?>
+                </div>
+              <?php elseif ($id === 1301): ?>
+                <div class="col-12 col-lg-4">
+                  <?php product_custom(1510, false); ?>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <?php product_custom(1512, true); ?>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <?php product_custom(1511, false); ?>
+                </div>
+              <?php endif; ?>
             </div>
           </div>
         </div>
