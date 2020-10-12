@@ -297,9 +297,8 @@ form{
 	}
 	[type=submit]{
 		border:none;
-		background: $text-color !important;
-		border: 1px solid $text-color;
-		color: #fff;
+		background: $btn-bg !important;
+		color: $main-color;
 		text-transform: uppercase;
 		font-weight: 700;
 		display: block;
@@ -311,7 +310,8 @@ form{
 			}
 		}
 		&:hover{
-			background: $main-color !important;
+			background: $active-color !important;
+			color: $main-color;
 		}
 	}
 }

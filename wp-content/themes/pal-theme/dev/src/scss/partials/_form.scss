@@ -49,8 +49,7 @@ form{
 			font-size: 18px;
 		}
 		&:hover{
-			color: $text-color;
-			background: $main-color;
+			background: $active-color;
 		}
 	}
 	textarea{

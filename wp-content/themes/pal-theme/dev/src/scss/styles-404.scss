@@ -34,7 +34,7 @@ body{
 			font-weight: 500;
 			font-size: calc(100vw / 3);
 			line-height: 1;
-			color: rgba($text-color, .15);
+			color: rgba($btn-bg, .5);
 			z-index: 1;
 			@media(min-width:768px){
 				position: absolute;
@@ -46,12 +46,11 @@ body{
 	.btn{
 		position: relative;
 		z-index: 2;
-		background: $text-color;
+		background: $btn-bg;
 		color: $main-color;
 		text-decoration: none;
 		height: 60px;
 		line-height: 60px;
-		border:1px solid $text-color;
 		width: 244px;
 		display: block;
 		margin-left: auto;
@@ -68,8 +67,7 @@ body{
 			margin-top: 180px;
 		}
 		&:hover{
-			color: $text-color;
-			background: $main-color;
+			background: $active-color;
 		}
 	}
 }

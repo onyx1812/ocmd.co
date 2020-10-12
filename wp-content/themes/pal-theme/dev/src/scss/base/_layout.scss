@@ -78,9 +78,6 @@ p{
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  &:hover{
-    background: $active-color;
-  }
   &-white{
     background: $text-color;
     color: $main-color;
@@ -95,6 +92,13 @@ p{
     background-color: transparent;
     border: 1px solid $text-color;
     color: $text-color;
+    &:hover{
+      border-color: $active-color;
+      color: $main-color;
+    }
+  }
+  &:hover{
+    background: $active-color;
   }
 }
 

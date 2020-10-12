@@ -815,8 +815,6 @@ p {
   display: inline-block;
   text-align: center;
   text-decoration: none; }
-  .btn:hover {
-    background: #FE6F61; }
   .btn-white {
     background: #151515;
     color: #ffffff;
@@ -829,6 +827,11 @@ p {
     background-color: transparent;
     border: 1px solid #151515;
     color: #151515; }
+    .btn-border:hover {
+      border-color: #FE6F61;
+      color: #ffffff; }
+  .btn:hover {
+    background: #FE6F61; }
 
 .section-subtitle {
   font-family: Montserrat;
@@ -1469,8 +1472,7 @@ form button[type="submit"] {
     form button[type="submit"] {
       font-size: 18px; } }
   form button[type="submit"]:hover {
-    color: #151515;
-    background: #ffffff; }
+    background: #FE6F61; }
 
 form textarea {
   padding-top: 15px;
@@ -2151,7 +2153,7 @@ h2 {
   padding: 0; }
   @media (min-width: 992px) {
     .producto .gallery {
-      padding: 60px 30px 30px; } }
+      padding: 15px; } }
   .producto .gallery:before {
     content: '';
     display: block;
@@ -2299,12 +2301,9 @@ h2 {
       position: relative;
       padding-left: 40px; }
     .producto .list-keys li img {
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 50%;
-      -webkit-transform: translate(0, -50%);
-      transform: translate(0, -50%); }
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px; }
 
 .producto .list-values {
   margin-bottom: 45px; }

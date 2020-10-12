@@ -1,1 +1,0 @@
-var _learnq=_learnq||[];var item={'Title':item.title,'ItemId':parseInt(item.product_id),'variantId':parseInt(item.variant_id),'Categories':item.categories,'ImageUrl':item.image_url,'Url':item.url,'Metadata':{'Price':parseFloat(item.price),}};_learnq.push(['track','Viewed Product',item]);_learnq.push(['trackViewedItem',item]);

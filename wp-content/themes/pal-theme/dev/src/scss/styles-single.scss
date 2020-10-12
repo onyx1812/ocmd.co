@@ -422,7 +422,7 @@ $brown: #6C5D57;
   .gallery{
     padding: 0;
     @media(min-width:992px){
-      padding: 60px 30px 30px;
+      padding: 15px;
     }
     &:before{
       content:'';
@@ -568,10 +568,13 @@ $brown: #6C5D57;
           padding-left: 40px;
         }
         img{
-          display: block;
-          position: absolute;
-          left: 0; top: 50%;
-          transform: translate(0, -50%);
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 10px;
+          // display: block;
+          // position: absolute;
+          // left: 0; top: 50%;
+          // transform: translate(0, -50%);
         }
       }
     }

@@ -814,8 +814,6 @@ p {
   display: inline-block;
   text-align: center;
   text-decoration: none; }
-  .btn:hover {
-    background: #FE6F61; }
   .btn-white {
     background: #151515;
     color: #ffffff;
@@ -828,6 +826,11 @@ p {
     background-color: transparent;
     border: 1px solid #151515;
     color: #151515; }
+    .btn-border:hover {
+      border-color: #FE6F61;
+      color: #ffffff; }
+  .btn:hover {
+    background: #FE6F61; }
 
 .section-subtitle {
   font-family: Montserrat;
@@ -891,7 +894,7 @@ body {
       font-weight: 500;
       font-size: calc(100vw / 3);
       line-height: 1;
-      color: rgba(21, 21, 21, 0.15);
+      color: rgba(230, 190, 175, 0.5);
       z-index: 1; }
       @media (min-width: 768px) {
         .page404 .bg-num span {
@@ -903,12 +906,11 @@ body {
   .page404 .btn {
     position: relative;
     z-index: 2;
-    background: #151515;
+    background: #E6BEAF;
     color: #ffffff;
     text-decoration: none;
     height: 60px;
     line-height: 60px;
-    border: 1px solid #151515;
     width: 244px;
     display: block;
     margin-left: auto;
@@ -926,5 +928,4 @@ body {
       .page404 .btn {
         margin-top: 180px; } }
     .page404 .btn:hover {
-      color: #151515;
-      background: #ffffff; }
+      background: #FE6F61; }

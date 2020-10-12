@@ -815,8 +815,6 @@ p {
   display: inline-block;
   text-align: center;
   text-decoration: none; }
-  .btn:hover {
-    background: #FE6F61; }
   .btn-white {
     background: #151515;
     color: #ffffff;
@@ -829,6 +827,11 @@ p {
     background-color: transparent;
     border: 1px solid #151515;
     color: #151515; }
+    .btn-border:hover {
+      border-color: #FE6F61;
+      color: #ffffff; }
+  .btn:hover {
+    background: #FE6F61; }
 
 .section-subtitle {
   font-family: Montserrat;
@@ -1316,8 +1319,7 @@ form button[type="submit"] {
     form button[type="submit"] {
       font-size: 18px; } }
   form button[type="submit"]:hover {
-    color: #151515;
-    background: #ffffff; }
+    background: #FE6F61; }
 
 form textarea {
   padding-top: 15px;
@@ -1601,9 +1603,8 @@ form.checkout .woocommerce-validated input {
 
 form [type=submit] {
   border: none;
-  background: #151515 !important;
-  border: 1px solid #151515;
-  color: #fff;
+  background: #E6BEAF !important;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
   display: block;
@@ -1612,7 +1613,8 @@ form [type=submit] {
   form [type=submit].loading:before, form [type=submit].loading:after {
     opacity: 1; }
   form [type=submit]:hover {
-    background: #ffffff !important; }
+    background: #FE6F61 !important;
+    color: #ffffff; }
 
 .woocommerce-checkout-review-order-table {
   border: none;
