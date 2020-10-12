@@ -6,36 +6,7 @@ $id = get_the_ID();
 <section class="producto">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <div class="producto-sidebar">
-          <?php $images = get_field('gallery'); if($images): ?>
-          <div class="gallery">
-            <img class="gallery-img" src="<?php echo esc_url($images[0]['url']); ?>" width="100%">
-            <ul class="gallery-nav">
-              <?php foreach( $images as $image ): ?>
-              <li data-src="<?php echo esc_url($image['url']); ?>">
-                <img src="<?php echo esc_url($image['sizes']['thumbnail']); ?>">
-              </li>
-              <?php endforeach; ?>
-            </ul>
-          </div>
-          <?php endif; ?>
-          <div class="solutions">
-            <h4 class="solutions-title"><span><?php the_field('solution_title'); ?></span></h4>
-            <?php if( have_rows('solution_list') ): ?>
-            <ul class="solutions-list">
-              <?php while( have_rows('solution_list') ): the_row(); ?>
-                <li>
-                  <img src="<?php the_sub_field('image'); ?>">
-                  <?php the_sub_field('text'); ?>
-                 </li>
-              <?php endwhile; ?>
-            </ul>
-          <?php endif; ?>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-8">
+      <div class="col-md-8 order-md-2">
         <h1 class="producto-title"><?php the_title(); ?></h1>
         <?php echo get_field('description'); ?>
         <div class="producto-tabs">
@@ -115,6 +86,35 @@ $id = get_the_ID();
           </div>
         </div>
         <!-- END .producto-tabs -->
+      </div>
+      <div class="col-md-4">
+        <div class="producto-sidebar">
+          <?php $images = get_field('gallery'); if($images): ?>
+          <div class="gallery">
+            <img class="gallery-img" src="<?php echo esc_url($images[0]['url']); ?>" width="100%">
+            <ul class="gallery-nav">
+              <?php foreach( $images as $image ): ?>
+              <li data-src="<?php echo esc_url($image['url']); ?>">
+                <img src="<?php echo esc_url($image['sizes']['thumbnail']); ?>">
+              </li>
+              <?php endforeach; ?>
+            </ul>
+          </div>
+          <?php endif; ?>
+          <div class="solutions">
+            <h4 class="solutions-title"><span><?php the_field('solution_title'); ?></span></h4>
+            <?php if( have_rows('solution_list') ): ?>
+            <ul class="solutions-list">
+              <?php while( have_rows('solution_list') ): the_row(); ?>
+                <li>
+                  <img src="<?php the_sub_field('image'); ?>">
+                  <?php the_sub_field('text'); ?>
+                 </li>
+              <?php endwhile; ?>
+            </ul>
+          <?php endif; ?>
+          </div>
+        </div>
       </div>
     </div>
   </div>
