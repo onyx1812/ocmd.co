@@ -182,6 +182,11 @@ if ( ! class_exists( 'AWS_Integrations' ) ) :
                 add_filter( 'aws_search_page_filters', array( $this, 'berocket_search_page_filters' ) );
             }
 
+            // Product Sort and Display for WooCommerce plugin
+            if ( defined( 'WC_PSAD_NAME' ) ) {
+                add_filter( "option_psad_shop_page_enable", array( $this, 'psad_filter' ) );
+            }
+
         }
 
         /**
@@ -195,7 +200,7 @@ if ( ! class_exists( 'AWS_Integrations' ) ) :
             }
 
             // Divi module
-            if ( defined( 'ET_BUILDER_PLUGIN_DIR' ) ) {
+            if ( defined( 'ET_BUILDER_PLUGIN_DIR' ) || function_exists( 'et_setup_theme' ) ) {
                 include_once( AWS_DIR . '/includes/modules/divi/class-divi-aws-module.php' );
             }
 
@@ -1228,7 +1233,12 @@ if ( ! class_exists( 'AWS_Integrations' ) ) :
                         $filters['on_sale'] = true;
                     } elseif ( $get_filter === '_sale[2]' ) {
                         $filters['on_sale'] = false;
-                    } elseif( preg_match( '/([\w]+)\[(.+?)\]/', $get_filter, $matches ) ) {
+                    } elseif ( strpos( $get_filter, 'price[' ) === 0 ) {
+                        if ( preg_match( '/([\w]+)\[(\d+)_(\d+)\]/', $get_filter, $matches ) ) {
+                            $filters['price_min'] = intval( $matches[2] );
+                            $filters['price_max'] = intval( $matches[3] );
+                        }
+                    } elseif ( preg_match( '/(.+)\[(.+?)\]/', $get_filter, $matches ) ) {
                         $taxonomy = $matches[1];
                         $operator = strpos( $matches[2], '-' ) !== false ? 'OR' : 'AND';
                         $explode_char = strpos( $matches[2], '-' ) !== false ? '-' : '+';
@@ -1244,6 +1254,16 @@ if ( ! class_exists( 'AWS_Integrations' ) ) :
 
             return $filters;
 
+        }
+
+        /*
+         * Product Sort and Display for WooCommerce plugin disable on search page
+         */
+        function psad_filter( $value ) {
+            if ( isset( $_GET['type_aws'] ) ) {
+                return 'no';
+            }
+            return $value;
         }
 
     }

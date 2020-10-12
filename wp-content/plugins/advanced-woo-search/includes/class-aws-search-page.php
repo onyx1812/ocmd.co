@@ -81,6 +81,10 @@ if ( ! class_exists( 'AWS_Search_Page' ) ) :
 
             add_filter( 'body_class', array( $this, 'body_class' ), 999 );
 
+            // Divi builder support
+            add_action( 'et_pb_shop_before_print_shop', array( $this, 'et_pb_shop_before_print_shop' ) );
+            add_action( 'et_pb_shop_after_print_shop', array( $this, 'et_pb_shop_after_print_shop' ) );
+
         }
 
         /**
@@ -181,7 +185,8 @@ if ( ! class_exists( 'AWS_Search_Page' ) ) :
         public function posts_pre_query( $posts, $query ) {
 
             if ( isset( $_GET['type_aws'] ) && isset( $query->query_vars['s'] ) && $query->query && isset( $query->query['fields'] ) && $query->query['fields'] == 'ids' &&
-                isset( $this->data['is_elementor'] ) && $this->data['is_elementor']  )
+                ( ( isset( $this->data['is_elementor'] ) && $this->data['is_elementor'] ) || ( isset( $this->data['is_divi_s_page'] ) && $this->data['is_divi_s_page'] ) )
+            )
             {
 
                 $products_ids = array();
@@ -305,7 +310,9 @@ if ( ! class_exists( 'AWS_Search_Page' ) ) :
         public function filter_found_posts( $found_posts, $query ) {
 
             // Elementor search template fix
-            if ( isset( $_GET['type_aws'] ) && isset( $this->data['all_products'] ) && $this->data['all_products'] && isset( $this->data['is_elementor'] ) && $this->data['is_elementor'] && isset( $query->query_vars['nopaging'] ) && ! $query->query_vars['nopaging'] ) {
+            if ( isset( $_GET['type_aws'] ) && isset( $this->data['all_products'] ) && $this->data['all_products'] && isset( $query->query_vars['nopaging'] ) && ! $query->query_vars['nopaging'] &&
+                ( ( isset( $this->data['is_elementor'] ) && $this->data['is_elementor'] ) || ( isset( $this->data['is_divi_s_page'] ) && $this->data['is_divi_s_page'] ) )
+            ) {
                 $found_posts = count( $this->data['all_products'] );
             }
 
@@ -467,6 +474,16 @@ if ( ! class_exists( 'AWS_Search_Page' ) ) :
                 }
             }
             return $classes;
+        }
+
+        /*
+         * Is it Divi builder search page template with Shop module?
+         */
+        public function et_pb_shop_before_print_shop() {
+            $this->data['is_divi_s_page'] = true;
+        }
+        public function et_pb_shop_after_print_shop() {
+            $this->data['is_divi_s_page'] = false;
         }
 
         /**
