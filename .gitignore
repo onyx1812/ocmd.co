@@ -12,9 +12,9 @@ node_modules/
 
 # WordPress ignores
 # wp-content/plugins/
-# wp-content/cache/
+wp-content/cache/
 # wp-config.php
-# wp-content/wp-cache-config.php
+wp-content/wp-cache-config.php
 # wp-content/advanced-cache.php
 # wp-content/uploads/wc-logs/
 

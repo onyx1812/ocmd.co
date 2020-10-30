@@ -18,14 +18,17 @@ get_header(); ?>
     margin: 0;
     padding: 0;
   }
-  .main-header, .main-footer{
-    display: none;
-  }
-  .logo{
-    position: fixed;
-    top: 30px; left: 50%;
-    transform: translate(-50%, 0);
-  }
+.main-header, .main-footer{
+  display: none;
+}
+.logo {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+}
 </style>
 
 <?php get_footer();
