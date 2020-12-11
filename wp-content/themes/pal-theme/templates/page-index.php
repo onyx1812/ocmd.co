@@ -9,8 +9,8 @@ get_header(); ?>
     <div class="row row-center">
       <div class="col-sm-8 col-md-7 offset-md-1 order-md-2">
         <h2 class="section-title-sm">Dr. Tess Mauricio</h2>
-        <h4 class="section-subtitle">“Bring the procedures that thousands of my patients us in my clinic to erase years away to your home”</h4>
-        <p><a href="#" class="link link-def">Board Certified Dermatologist, fellow of the American Academy of Dermatology</a></p>
+        <h4 class="section-subtitle">“You can now bring the same procedures that thousands of my patients use in my clinic to erase years of wrinkles to your home.”</h4>
+        <p><span class="link link-def" style="text-decoration: none!important;">Board Certified Dermatologist, fellow of the American Academy of Dermatology</span></p>
       </div>
       <div class="col-sm-4 col-md-4">
         <img src="<?php IMG(); ?>/tessmauricio.jpg" alt="">
@@ -23,9 +23,9 @@ get_header(); ?>
   <div class="container">
     <div class="row row-center">
       <div class="col-sm-6">
-        <h2 class="section-title-sm">Just Arrived - Lumia Platinum Eye Cream</h2>
-        <p>Get that clear, smooth, younger looking skin around your eye area and feel fabulous every day.</p>
-        <a href="/product/smoothn" class="btn btn-learn">Learn More</a>
+        <h2 class="section-title-sm">Just Arrived Rejuvenation Complex Cream</h2>
+        <p>Our #1 rated "age-defying" formula that's fast-acting with premium grade ingredients.</p>
+        <!-- <a href="/product/smoothn" class="btn btn-learn">Learn More</a> -->
       </div>
       <div class="col-sm-5 offset-md-1">
         <img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/arrived.jpg'; ?>" alt="">
@@ -38,9 +38,9 @@ get_header(); ?>
   <div class="container">
     <div class="row row-center">
       <div class="col-sm-6 offset-md-1 order-md-2">
-        <h2 class="section-title-sm">Just Arrived - Lumia Platinum Eye Cream</h2>
-        <p>Get that clear, smooth, younger looking skin around your eye area and feel fabulous every day.</p>
-        <a href="/product/awakn" class="btn btn-learn">Learn More</a>
+        <h2 class="section-title-sm">Just Arrived – Deep Perfecting Face & Neck Serum</h2>
+        <p>Reignite your skin's youth with the revolutionary Deep Perfecting Face & Neck Serum.</p>
+        <!-- <a href="/product/awakn" class="btn btn-learn">Learn More</a> -->
       </div>
       <div class="col-sm-5">
         <img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/arrived2.jpg'; ?>" alt="">
@@ -52,7 +52,7 @@ get_header(); ?>
 <section class="products-section" id="productsSection">
   <div class="container">
     <h2 class="section-title">Our Products</h2>
-    <?php echo do_shortcode('[products ids="1301, 1303, 1307" limit="3" columns="3" ]'); ?>
+    <?php echo do_shortcode('[products ids="1301, 1307" limit="2" columns="2" ]'); ?>
   </div>
 </section>
 
@@ -60,9 +60,12 @@ get_header(); ?>
   <div class="container">
     <div class="row row-center">
       <div class="col-sm-6 offset-md-1 order-md-2">
-        <h2 class="section-title-sm">Our Story</h2>
-        <p>With passion for high-end cosmetics, and the vision to make it accessible to every man and woman, OCMD invested years in developing the highest quality formulas focusing on the most recent research and premium ingredients mix. <br><br>By selling direct-to-consumer, we are able to cut off all middlemen and simply focus on quality and service for YOU - Our Customers!</p>
-        <a href="/product/tightn" class="btn btn-learn">Learn more</a>
+        <h2 class="section-title-sm">The OCMD Story</h2>
+        <p>Our founders saw women buying "high-end" cosmetics that were no better than a store brand knock off. We envisioned making high-quality, ethical, rejuvenating products available to every man and woman.</p>
+        <p>After investing years into researching and developing our state-of-the-art products, we focused on formulas that combined the earth's goodness with premium ingredients.</p>
+        <p>We decided to sell direct-to-consumer to save you money by cutting out the middleman.</p>
+        <p>High-quality, effective products are just a click away.</p>
+        <!-- <a href="/product/tightn" class="btn btn-learn">Learn more</a> -->
       </div>
       <div class="col-sm-6 col-md-5">
         <img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/arrived3.jpg'; ?>" alt="">
@@ -74,23 +77,31 @@ get_header(); ?>
 <section class="why">
   <div class="container-fluid">
     <h2 class="section-title">Why OCMD?</h2>
-    <p>Here are just a few of the reasons you should consider and choose OCMD for your <br> daily Skin-Care routine. We focus on Quailty, we focus on Science, we focus on your <br> Experience, we focus on YOU!</p>
+    <p>Why purchase OCMD products instead of some supposedly "high-end" product with a brand-name? Here are 8 reasons:</p>
     <div class="row">
-      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_01.png'; ?>" alt="Eco Friendly"><span>Eco Friendly</span></div>
-      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_02.png'; ?>" alt="Dermatologies Recommended"><span>Dermatologies Recommended</span></div>
-      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_03.png'; ?>" alt="Cruelty Free"><span>Cruelty Free</span></div>
-      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_04.png'; ?>" alt="Healthy & Safe Ingredients"><span>Healthy & Safe Ingredients</span></div>
-      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_05.png'; ?>" alt="100% Tested"><span>100% Tested</span></div>
-      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_06.png'; ?>" alt="100% Satisfaction Guarantee"><span>100% Satisfaction Guarantee</span></div>
-      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_07.png'; ?>" alt="Natural Based"><span>Natural Based</span></div>
-      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_08.png'; ?>" alt="Fits all Skin Types"><span>Fits all Skin Types</span></div>
+      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_06.png'; ?>" ><span>100% Satisfaction Guarantee</span></div>
+      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_02.png'; ?>" ><span>Recommended by Top Dermatologists</span></div>
+      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_04.png'; ?>" ><span>Safe, Healthy Ingredients</span></div>
+      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_05.png'; ?>" ><span>100% Tested</span></div>
+      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_03.png'; ?>" ><span>Cruelty Free</span></div>
+      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_01.png'; ?>" ><span>Earth-Friendly</span></div>
+      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_08.png'; ?>" ><span>Fits all Skin Types</span></div>
+      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_07.png'; ?>" ><span>Organic-Based</span></div>
+      <div class="col-xl-3 col-lg-4 col-sm-6"><img src="data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo IMG.'/why_01.png'; ?>" ><span>Eco Friendly</span></div>
     </div>
     <p>
       <a href="<?php the_permalink(1325);?>" class="btn btn-border">Need Help? Click Here</a>
     </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 class="section-title">Who is Dr. Tess Mauricio</h2>
+    <p>Dr. Tess Mauricio is a Board Certified Dermatologist, fellow of the American Academy of Dermatology, graduate of Stanford University School of Medicine, and a Summa Cum Laude graduate of The University of California San Diego. </p>
+    <p>She is the founder of M Beauty Clinic by Dr Tess in San Diego and Beverly Hills. A Past President of The San Diego Society for Dermatologic Surgery, she is the recipient of the UCSD Warren College Distinguished Alumni Award and Hollywood Daytime Beauty Award for Outstanding Achievement in Medicine.</p>
+    <p>Dr. Tess is a favorite medical expert on TV with regular network appearances on NBC’s California Live, The Dr Oz Show, The Talk, The Real, Dr Phil, The Rachael Ray Show, Fox News, and The Doctors. Dr Tess produced 6 seasons of “The Dr Tess Show” and her family’s reality show, “All in Family with Dr Tess,” premieres its 3rd season in 2020.Dr Tess believes that we should all do and be our very best, and always be a blessing to others by sharing your stories and unique gifts.</p>
   </div>
 </section>
-
-<!-- <div id="cursor" style="position: fixed;height: 30px;width: 30px;border: 1px solid rgb(21, 21, 21);border-radius: 50%;box-shadow:0 0 4px #000 inset;z-index: 99999999999;"></div> -->
 
 <?php get_footer();

@@ -1,9 +1,9 @@
 		<footer class="main-footer">
 			<div class="container">
-				<h2 class="section-title">Subscribe our newsletters</h2>
+				<h2 class="section-title">Subscribe to our newsletters</h2>
 				<p class="text-center">Receive Updates about New Products and Special Deals.</p>
 				<form class="sform" id="sForm">
-					<input type="email" name="s_email" id="s_email" placeholder="Your Email Adress">
+					<input type="email" name="s_email" id="s_email" placeholder="Your Email Address">
 					<input type="submit" value="subscribe">
 				</form>
 				<div class="row">
@@ -12,13 +12,9 @@
 					</div>
 					<div class="col">
 						<p class="call">
-							Need Help? Contact Us 24/7 <br>
-							US & CA: <a href="tel:+13152774969">+1 (315) 277-4969</a> <br>
-							UK & EU: <a href="tel:+442039847994">+44 (20) 3984-7994</a> <br><br>
-							<a href="mailto:support@ocmd.co">support@ocmd.co</a> <br><br>
-							US: 144-42 Jewel Avenue, <br>
-							FLUSHING, NY 11367 <br><br>
-							ISRAEL: 6 Moshe Hess St., Lod
+							Should you need assistance on your order, please contact us 24/7 <br>
+							Give Us a Call: <a href="tel:8772310127">(877) 231-0127</a> <br>
+							Or Click here to email us: <a href="mailto:support@ocmd.co">support@ocmd.co</a> <br><br>
 						</p>
 					</div>
 					<div class="col">
