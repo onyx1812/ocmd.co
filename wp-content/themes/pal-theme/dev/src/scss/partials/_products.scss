@@ -34,7 +34,7 @@ ul.products{
       }
     }
   }
-  &.columns-3{
+  &.columns-2{
     width: 760px;
     max-width: 100%;
     margin-left: auto;
@@ -103,7 +103,9 @@ ul.products{
     display: block;
     width: 100%;
     height: auto;
-    margin-bottom: 30px;
+    @media(min-width:768px){
+      margin-bottom: 30px;
+    }
   }
   .button{
     background: #E6BEAF;
@@ -112,7 +114,6 @@ ul.products{
     display: block;
     text-decoration: none;
     text-align: center;
-    font-family: Montserrat;
     font-weight: bold;
     font-size: 18px;
     height: 55px;
@@ -139,7 +140,6 @@ ul.products{
     color: $text-color;
   }
   h2{
-    font-family: Playfair Display;
     font-weight: bold;
     font-size: 18px;
     line-height: 125.9%;
@@ -154,7 +154,6 @@ ul.products{
   }
   .woocommerce-product-details__short-description{
     p{
-      font-family: Montserrat;
       font-style: normal;
       font-weight: normal;
       font-size: 13px;
@@ -169,13 +168,12 @@ ul.products{
     text-align: center;
     align-items: flex-end;
     text-decoration: none;
-    font-family: Playfair Display;
     font-size: 24px;
     line-height: 125.9%;
-    @media(max-width:991px){
-      width: 100%;
-      justify-content: center;
-    }
+    // @media(max-width:991px){
+    //   width: 100%;
+    //   justify-content: center;
+    // }
     @media(min-width:992px){
       font-size: 28px;
       text-align: right;
@@ -187,7 +185,6 @@ ul.products{
       text-decoration: none;
     }
     del{
-      font-family: Playfair Display;
       font-size: 22px;
       line-height: 125.9%;
       margin-right: 4px;
@@ -195,6 +192,8 @@ ul.products{
   }
   .product-desc{
     margin-bottom: 15px;
-    padding-top: 30px;
+    @media(min-width:768px){
+      padding-top: 30px;
+    }
   }
 }

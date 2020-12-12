@@ -26,16 +26,9 @@
 
     <header class="main-header">
       <div class="container-fluid">
-        <a href="<?php echo home_url(); ?>" class="logo">
-          <img src="<?php echo IMG.'/logo.png'; ?>" alt="">
-        </a>
         <div class="row">
           <div class="col-md-3 col-7">
-            <?php
-              if( function_exists( 'aws_get_search_form') ){
-                aws_get_search_form();
-              }
-            ?>
+            <img src="<?php echo IMG.'/logo.png'; ?>" alt="" class="logo">
           </div>
           <div class="col-md-2 col-5 order-md-2">
             <div class="mini-cart">

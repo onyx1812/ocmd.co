@@ -37,6 +37,12 @@
   }
 }
 
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1540px;
+  }
+}
+
 .container-fluid {
   width: 100%;
   max-width: 1920px;
@@ -51,8 +57,13 @@
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  @media(min-width:1600px){
+    margin-right: -30px;
+    margin-left: -30px;
+  }
   &-center{
     align-items: center;
+    justify-content: center;
     @media(max-width:768px){
       text-align: center;
     }
@@ -91,6 +102,10 @@
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  @media(min-width:1600px){
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 .col {

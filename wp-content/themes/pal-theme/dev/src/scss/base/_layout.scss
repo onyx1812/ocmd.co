@@ -12,25 +12,26 @@ body{
 }
 
 .section-title{
-  font-family: Playfair Display;
   font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
+  font-weight: 500;
+  font-size: 30px;
   line-height: 125.9%;
   letter-spacing: 0.06em;
   color: $text-color;
-  text-align: center;
   margin-bottom: 30px;
   @media(min-width:768px){
+    font-size: 54px;
+    margin-bottom: 45px;
+  }
+  @media(min-width:1600px){
     font-size: 64px;
     margin-bottom: 60px;
   }
 }
 
 .section-title-sm{
-  font-family: Playfair Display;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 30px;
   line-height: 125.9%;
   letter-spacing: 0.06em;
@@ -40,20 +41,19 @@ body{
     font-size: 40px;
     margin-bottom: 20px;
   }
-  @media(min-width:992px){
+  @media(min-width:1600px){
     font-size: 48px;
     margin-bottom: 30px;
   }
 }
 
 p{
-  font-family: Montserrat Light;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 16px;
   line-height: 125.9%;
-  color: $text-color;
-  @media(min-width:768px){
+  color: #9B9B9B;
+  @media(min-width:1600px){
     font-size: 21px;
   }
 }
@@ -70,7 +70,6 @@ p{
   border: none;
   color: $main-color;
   width: 250px;
-  font-family: Montserrat;
   font-weight: bold;
   font-size: 18px;
   line-height: 125.9%;
@@ -103,20 +102,31 @@ p{
 }
 
 .section-subtitle{
-  font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 124.4%;
-  color: #3A3C48;
+  color: #9B9B9B;
   margin-bottom: 15px;
+  @media(min-width:768px){
+    font-size: 26px;
+  }
+  @media(min-width:1600px){
+    font-size: 36px;
+  }
 }
 
 .link{
   color: $active-color;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 22px;
+  @media(min-width:768px){
+    font-size: 16px;
+  }
+  @media(min-width:1600px){
+    font-size: 17px;
+  }
   &:hover{
     text-decoration: underline;
   }
@@ -129,6 +139,23 @@ p{
       display: inline-block;
       vertical-align: middle;
       background: $active-color;
+    }
+  }
+}
+
+.text{
+  &-right{
+    text-align: right;
+  }
+  &-left{
+    text-align: left;
+  }
+  &-center{
+    text-align: center;
+  }
+  &-right, &-left, &-center{
+    img{
+      display: inline-block;
     }
   }
 }

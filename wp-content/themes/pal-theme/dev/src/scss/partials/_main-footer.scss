@@ -1,94 +1,98 @@
 .main-footer{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	// min-height: 100vh;
-	display: flex;
-	align-items: center;
-	.row{
-		justify-content: space-between;
-		.col{
-			flex-grow: unset;
-			width: auto;
-			flex-basis: auto;
-			display: block;
-			@media(max-width:767px){
-				width: 100%;
-				margin-top: 15px;
-				margin-bottom: 15px;
-				text-align: center;
-			}
-		}
-	}
-	h2.section-title{
-		margin-bottom: 18px;
-		&+p{
-			font-size: 14px;
-			margin-bottom: 30px;
-			text-align: center;
-			@media(min-width:768px){
-				font-size: 18px;
-				margin-bottom: 90px;
-			}
-		}
-	}
-	p{
-		font-size: 14px;
-		font-weight: 300;
-	}
-	.call{
-		background: url('../img/icon-call.jpg') no-repeat center top;
-		padding-top: 55px;
-		@media(min-width:768px){
-			background: url('../img/icon-call.jpg') no-repeat left top;
-			padding-left: 65px;
-			padding-top: 0;
-		}
-	}
-	.logo{
-		display: block;
-		width: 125px;
-		@media(max-width:767px){
-			margin-left: auto;
-			margin-right: auto;
-		}
-		@media(min-width:768px){
-			width: 177px;
-		}
-		@media(min-width:1200px){
-			margin-bottom: 50px;
-		}
-		img{
-			width: 100%;
-			height: auto;
-		}
-	}
-	form{
-		display: flex;
-		width: 100%;
-		margin-bottom: 30px;
-		@media(min-width:768px){
-			margin-bottom: 137px;
-		}
-	}
-	h4{
-		font-family: Montserrat;
-		font-size: 18px;
-		line-height: 22px;
-		margin-bottom: 10px;
-	}
-	a{
-		font-weight: 300;
-		font-size: 14px;
-		line-height: 17px;
-		color: $text-color;
-		text-decoration: none;
-		&:hover{
-			text-decoration: underline;
-		}
-	}
-	.footer-menu{
-		li{
-			padding: 5px 0;
-		}
-	}
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  .row{
+    justify-content: space-between;
+    .col{
+      flex-grow: unset;
+      width: auto;
+      flex-basis: auto;
+      display: block;
+      @media(max-width:767px){
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+    }
+  }
+  .container{
+    @media(min-width:1600px){
+      max-width: 1200px;
+    }
+  }
+  h2.section-title{
+    margin-bottom: 18px;
+    text-align: center;
+    &+p{
+      font-size: 14px;
+      margin-bottom: 30px;
+      text-align: center;
+      @media(min-width:768px){
+        font-size: 18px;
+        margin-bottom: 90px;
+      }
+    }
+  }
+  p{
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .call{
+    background: url('../img/icon-call.jpg') no-repeat center top;
+    padding-top: 55px;
+    @media(min-width:768px){
+      background: url('../img/icon-call.jpg') no-repeat left top;
+      padding-left: 65px;
+      padding-top: 0;
+    }
+  }
+  .logo{
+    display: block;
+    width: 125px;
+    @media(max-width:767px){
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media(min-width:768px){
+      width: 177px;
+    }
+    @media(min-width:1200px){
+      margin-bottom: 50px;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  form{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    @media(min-width:768px){
+      margin-bottom: 137px;
+    }
+  }
+  h4{
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  a{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: $text-color;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  .footer-menu{
+    li{
+      padding: 5px 0;
+    }
+  }
 }
