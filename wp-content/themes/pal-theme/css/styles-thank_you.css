@@ -819,10 +819,10 @@ p {
             align-items: center; }
   .main-header .logo {
     display: block;
-    width: 120px; }
+    width: 100px; }
     @media (min-width: 1200px) {
       .main-header .logo {
-        width: 178px; } }
+        width: 160px; } }
   .main-header .aws-container {
     width: 250px;
     max-width: 100%; }

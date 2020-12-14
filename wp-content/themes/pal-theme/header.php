@@ -28,7 +28,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-3 col-7">
-            <img src="<?php echo IMG.'/logo.png'; ?>" alt="" class="logo">
+            <img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo">
           </div>
           <div class="col-md-2 col-5 order-md-2">
             <div class="mini-cart">
