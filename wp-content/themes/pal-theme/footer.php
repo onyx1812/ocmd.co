@@ -8,7 +8,7 @@
         </form>
         <div class="row">
           <div class="col">
-            <a href="<?php echo home_url(); ?>" class="logo"><img src="<?php echo IMG.'/logo.png'; ?>" alt=""></a>
+            <a href="<?php echo home_url(); ?>" class="logo"><img src="<?php echo IMG.'/logo.svg'; ?>" alt=""></a>
           </div>
           <div class="col">
             <p class="call">
