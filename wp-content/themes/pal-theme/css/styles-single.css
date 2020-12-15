@@ -115,7 +115,7 @@ em {
     max-width: 1140px; } }
 
 @media (min-width: 1600px) {
-  .container {
+  .home .container {
     max-width: 1540px; } }
 
 .container-fluid {
@@ -2436,3 +2436,8 @@ h2 {
       margin-top: -25px; }
     .producto .product-best footer {
       padding-bottom: 30px; }
+
+.tns-item {
+  text-align: center; }
+  .tns-item img {
+    display: inline-block; }
