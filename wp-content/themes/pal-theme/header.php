@@ -12,7 +12,7 @@
 
     <title><?php wp_title( '|', true, 'right' ); echo get_bloginfo('name'); ?></title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico?v=1.00" />
 
     <script>
       const vh = window.innerHeight * 0.01;
