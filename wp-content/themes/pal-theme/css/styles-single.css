@@ -1418,7 +1418,7 @@ form .field {
     letter-spacing: -2px;
     font-family: Arial !important;
     position: relative;
-    color: #EB6537; }
+    color: #fe6f61; }
     @media (min-width: 992px) {
       .star-rating li {
         font-size: 20px; } }
@@ -1750,26 +1750,85 @@ h2 {
   @media (min-width: 768px) {
     .reviews {
       padding: 50px 0; } }
-  .reviews .container-fluid {
-    overflow: hidden; }
-  @media (min-width: 992px) {
-    .reviews .tns-inner, .reviews .tns-ovh {
-      overflow: visible !important; } }
+  @media (min-width: 768px) {
+    .reviews {
+      padding: 100px 0; } }
+  .reviews .row > div {
+    display: -webkit-box;
+    display: flex; }
+    @media (max-width: 768px) {
+      .reviews .row > div:not(:first-child) {
+        margin-top: 30px; } }
   .reviews .box {
-    padding: 30px;
-    background: #fff; }
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px; }
     @media (min-width: 992px) {
       .reviews .box {
-        box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.15); } }
+        padding: 20px; } }
     @media (min-width: 1200px) {
       .reviews .box {
-        padding: 30px;
-        margin: 30px; } }
-    .reviews .box img {
+        padding: 30px; } }
+    .reviews .box header {
       display: block;
-      width: 330px;
-      max-width: 100%;
-      margin: 0 auto; }
+      position: relative;
+      margin-bottom: 30px; }
+    .reviews .box img {
+      width: 85px;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0; }
+    .reviews .box h3 {
+      font-size: 18px;
+      line-height: 1.4;
+      color: #000000;
+      margin-bottom: 4px; }
+      @media (min-width: 992px) {
+        .reviews .box h3 {
+          font-size: 20px; } }
+      @media (min-width: 1200px) {
+        .reviews .box h3 {
+          font-size: 32px; } }
+    .reviews .box span {
+      font-size: 18px;
+      line-height: 125.9%;
+      color: #505050;
+      display: block;
+      margin-bottom: 10px; }
+      @media (min-width: 992px) {
+        .reviews .box span {
+          font-size: 15px;
+          margin-bottom: 15px; } }
+      @media (min-width: 1200px) {
+        .reviews .box span {
+          font-size: 18px;
+          margin-bottom: 25px; } }
+    .reviews .box h4 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 125.9%;
+      color: #000000;
+      margin-bottom: 10px; }
+      @media (min-width: 992px) {
+        .reviews .box h4 {
+          font-size: 20px; } }
+      @media (min-width: 1200px) {
+        .reviews .box h4 {
+          font-size: 24px; } }
+    .reviews .box p {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 125.9%;
+      color: #000000; }
+      @media (min-width: 992px) {
+        .reviews .box p {
+          font-size: 15px; } }
+      @media (min-width: 1200px) {
+        .reviews .box p {
+          font-size: 18px; } }
 
 .ingredients {
   padding: 30px 0; }
@@ -2375,7 +2434,7 @@ h2 {
     margin: 5px 0; }
     .producto .product-price span {
       font-weight: 400;
-      font-size: 22px; }
+      font-size: 16px; }
   .producto .product-save {
     font-size: 18px;
     line-height: 22px;

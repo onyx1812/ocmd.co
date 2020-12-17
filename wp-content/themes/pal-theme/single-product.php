@@ -157,12 +157,45 @@ $id = get_the_ID();
 <?php endif; ?>
 
 <section class="reviews">
-  <div class="container-fluid">
+  <div class="container">
     <h2>Thousands Of Happy Customers</h2>
-    <div class="slider slider-reviews" id="sliderReviews">
-      <div class="item"><div class="box"><img src="<?php echo IMG.'/r1.jpg'; ?>" alt=""></div></div>
-      <div class="item"><div class="box"><img src="<?php echo IMG.'/r2.jpg'; ?>" alt=""></div></div>
-      <div class="item"><div class="box"><img src="<?php echo IMG.'/r3.jpg'; ?>" alt=""></div></div>
+    <div class="row" >
+      <div class="col-md-4">
+        <div class="box">
+          <header>
+            <img src="<?php echo IMG(); ?>/rev1.png" alt="">
+            <h3>Marta Stans</h3>
+            <span>Alabama, USA</span>
+            <ul class="star-rating"><li class="star-f"></li><li class="star-f"></li><li class="star-f"></li><li class="star-f"></li><li class="star-f"><i></i></li></ul>
+          </header>
+          <h4>Just feels luxurious!</h4>
+          <p>I saw a reduction in my eye craws appearance after only 4 weeks of using it. definitely going to order again.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box">
+          <header>
+            <img src="<?php echo IMG(); ?>/rev2.png" alt="">
+            <h3>Ann Wilkock</h3>
+            <span>FL, USA</span>
+            <ul class="star-rating"><li class="star-f"></li><li class="star-f"></li><li class="star-f"></li><li class="star-f"></li><li class="star-f"><i></i></li></ul>
+          </header>
+          <h4>Lovely Cream! </h4>
+          <p>All I can say is "goodbye" to the rest of my creams :) This one is simply an "all-in-one" jar - my skin feels moisturized throughout the day, and I can definitely start seeing improvement around my eyes and forehead.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box">
+          <header>
+            <img src="<?php echo IMG(); ?>/rev3.png" alt="">
+            <h3>Brenda Wall</h3>
+            <span>Liverpool, UK</span>
+            <ul class="star-rating"><li class="star-f"></li><li class="star-f"></li><li class="star-f"></li><li class="star-f"></li><li class="star-h"><i></i></li></ul>
+          </header>
+          <h4>Awesome!</h4>
+          <p>After about a week of using it my husband started complimenting my look :) with our marriage routine - haven't heard that in a long time lol and all I changed was using this cream. I'm sold for good.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
