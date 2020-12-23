@@ -12,14 +12,24 @@
   padding: 60px 0;
 }
 .single-content h1 {
-  font-size: 50px;
+  font-size: 26px;
   font-weight: 700;
   margin-bottom: 30px;
 }
+@media(min-width:768px){
+  .single-content h1 {
+    font-size: 50px;
+  }
+}
 .single-content p, .single-content li {
-  font-size: 18px;
+  font-size: 16px;
   color: #1f1f1f;
   margin-bottom: 15px;
+}
+@media(min-width:768px){
+  .single-content p, .single-content li {
+    font-size: 18px;
+  }
 }
 .single-content ol {
   list-style: decimal outside;
