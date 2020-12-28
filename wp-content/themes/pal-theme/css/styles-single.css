@@ -973,6 +973,8 @@ p {
     @media (min-width: 1200px) {
       .main-header .logo {
         width: 160px; } }
+    .main-header .logo-post {
+      margin: 0 auto; }
   .main-header .aws-container {
     width: 250px;
     max-width: 100%; }

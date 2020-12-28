@@ -1,0 +1,53 @@
+@import 'variables/colors';
+@import 'base/all';
+
+@import 'partials/main-header';
+@import 'partials/main-footer';
+@import 'partials/form';
+
+.single-content {
+  padding: 30px 0 60px;
+  @media(min-width:768px){
+    padding: 60px 0 90px;
+  }
+}
+h1 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 30px;
+  @media(min-width:768px){
+    font-size: 72px;
+    margin-bottom: 90px;
+  }
+}
+
+h4{
+  font-size: 16px;
+  color: #1f1f1f;
+  margin-bottom: 5px;
+  font-weight: 700;
+  @media(min-width:768px){
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+}
+
+p{
+  font-size: 15px;
+  color: #1f1f1f;
+  margin-bottom: 20px;
+  font-weight: 400;
+  line-height: 1.1;
+  @media(min-width:768px){
+    font-size: 24px;
+    margin-bottom: 45px;
+  }
+}
+ol {
+  list-style: decimal outside;
+  padding: 10px 30px;
+}
+
+.link{
+
+}

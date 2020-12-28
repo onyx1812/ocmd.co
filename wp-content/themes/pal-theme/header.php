@@ -26,6 +26,9 @@
 
     <header class="main-header">
       <div class="container-fluid">
+        <?php if(TYPE() === 'post'): ?>
+        <img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo logo-post">
+        <?php else: ?>
         <div class="row">
           <div class="col-md-3 col-7">
             <img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo">
@@ -52,5 +55,6 @@
             ?>
           </div>
         </div>
+      <?php endif; ?>
       </div>
     </header>

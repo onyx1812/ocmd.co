@@ -5,37 +5,10 @@
       <div class="single-content">
         <h1><?php the_title(); ?></h1>
         <?php the_content(); ?>
+        <p class="text-center"><a class="link" title="Home page OCMD" href="<?php echo home_url(); ?>">< Go to Home page</a></p>
       </div>
     </div>
-<style>
-.single-content {
-  padding: 60px 0;
-}
-.single-content h1 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
-@media(min-width:768px){
-  .single-content h1 {
-    font-size: 50px;
-  }
-}
-.single-content p, .single-content li {
-  font-size: 16px;
-  color: #1f1f1f;
-  margin-bottom: 15px;
-}
-@media(min-width:768px){
-  .single-content p, .single-content li {
-    font-size: 18px;
-  }
-}
-.single-content ol {
-  list-style: decimal outside;
-  padding: 10px 30px;
-}
-</style>
+
   <?php endwhile; ?>
 
 <?php get_footer(); ?>
