@@ -1290,7 +1290,7 @@ p {
   color: #1f1f1f;
   margin-bottom: 20px;
   font-weight: 400;
-  line-height: 1.1; }
+  line-height: 1.3; }
   @media (min-width: 768px) {
     p {
       font-size: 24px;
@@ -1312,3 +1312,8 @@ p {
 ol {
   list-style: decimal outside;
   padding: 10px 30px; }
+
+img.post-img {
+  display: block;
+  float: left;
+  margin: 0 30px 15px 0; }
