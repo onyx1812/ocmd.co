@@ -1296,10 +1296,12 @@ p {
       font-size: 24px;
       margin-bottom: 45px; } }
   p.author {
-    font-size: 14px; }
+    font-size: 14px;
+    margin-bottom: 10px; }
     @media (min-width: 768px) {
       p.author {
-        font-size: 18px; } }
+        font-size: 18px;
+        margin-bottom: 20px; } }
   p.date {
     font-weight: 300;
     font-size: 14px; }
