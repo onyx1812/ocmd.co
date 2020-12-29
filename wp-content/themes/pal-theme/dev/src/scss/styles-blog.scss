@@ -42,6 +42,19 @@ p{
     font-size: 24px;
     margin-bottom: 45px;
   }
+  &.author{
+    font-size: 14px;
+    @media(min-width:768px){
+      font-size: 18px;
+    }
+  }
+  &.date{
+    font-weight: 300;
+    font-size: 14px;
+    @media(min-width:768px){
+      font-size: 18px;
+    }
+  }
 }
 ol {
   list-style: decimal outside;

@@ -1339,3 +1339,6 @@ form .field {
       font-weight: 700;
       font-size: 14px;
       text-transform: uppercase; }
+
+.section-title {
+  text-align: center; }

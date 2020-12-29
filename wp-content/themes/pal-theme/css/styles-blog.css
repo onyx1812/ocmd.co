@@ -1295,6 +1295,17 @@ p {
     p {
       font-size: 24px;
       margin-bottom: 45px; } }
+  p.author {
+    font-size: 14px; }
+    @media (min-width: 768px) {
+      p.author {
+        font-size: 18px; } }
+  p.date {
+    font-weight: 300;
+    font-size: 14px; }
+    @media (min-width: 768px) {
+      p.date {
+        font-size: 18px; } }
 
 ol {
   list-style: decimal outside;
