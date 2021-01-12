@@ -255,12 +255,14 @@ $id = get_the_ID();
   </section>
 <?php endif; ?>
 
+<?php if(get_the_ID() !== 1301 ): ?>
 <section class="faq-section">
   <div class="container">
     <h2>Frequently Asked Questions</h2>
     <?php get_template_part( 'partials/mg', 'faq' ); ?>
   </div>
 </section>
+<?php endif; ?>
 
 <?php
 endwhile;
