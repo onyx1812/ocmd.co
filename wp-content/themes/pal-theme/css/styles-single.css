@@ -1494,8 +1494,10 @@ ul.products.columns-2 {
   margin-left: auto;
   margin-right: auto; }
   ul.products.columns-2 > li {
-    background: #FFF9F8;
-    padding: 15px; }
+    background: #fff;
+    padding: 15px;
+    border: 2px solid #e6beaf;
+    box-shadow: 0 0 16px rgba(230, 190, 175, 0.25); }
     @media (max-width: 767px) {
       ul.products.columns-2 > li {
         margin-bottom: 30px;
