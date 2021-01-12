@@ -12,7 +12,6 @@
           </div>
           <div class="col">
             <p class="call">
-              Need Help? Contact Us 24/7 <br><br>
               <a href="tel:8772310127">(877) 231-0127</a> <br><br>
               <a href="mailto:support@ocmd.co">support@ocmd.co</a>
             </p>
