@@ -1,0 +1,20 @@
+{
+    "name": "codeclouds/limelight",
+    "description": "Limelight API Package",
+    "type": "library",
+    "authors": [{
+        "name": "CodeClouds",
+        "email": "sales@codeclouds.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "6.*",
+        "illuminate/validation": "4.*",
+        "illuminate/translation": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeClouds\\Limelight\\": "src/"
+        }
+    }
+}

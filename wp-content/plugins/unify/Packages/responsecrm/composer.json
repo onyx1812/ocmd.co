@@ -1,0 +1,22 @@
+{
+	"name": "codeclouds/responsecrm",
+	"description": "ResponseCRM package",
+	"type": "library",
+	"authors": [
+		{
+			"name": "CodeClouds",
+			"email": "sales@codeclouds.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"guzzlehttp/guzzle": "5.* || 6.*",
+		"illuminate/validation": "4.* || 5.*",
+		"illuminate/translation": "4.* || 5.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"CodeClouds\\ResponseCRM\\": "src/"
+		}
+	}
+}
