@@ -200,12 +200,60 @@ $id = get_the_ID();
   </div>
 </section>
 
-<section class="ingredients">
+<?php if(get_the_ID() === 1301 ): ?>
+<section class="formula">
   <div class="container">
-    <h2>Full List Of Ingredients</h2>
-    <p class="text-center">WATER; ISOPROPYL MYRISTATE; RICINUS COMMUNIS (CASTOR) SEED OIL; SQUALANE; CYCLOPENTASILOXANE; DIMETHICONE; CAPRYLIC/CAPRIC TRIGLYCERIDE; GLYCERIN; TOCOPHERYL ACETATE; SODIUM ACRYLATE / SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER; PHENOXYETHANOL; PANTHENOL; RETINYL PALMITATE; ISOHEXADECANE; POLYSORBATE 20; TITANIUM DIOXIDE; MATRICARIA CHAMOMILLA (GERMAN CHAMOMILE) FLOWER WATER; SODIUM BENZOATE; CALENDULA OFFICINALIS (CALENDULA) FLOWER WATER; POLYSORBATE 80; PERSEA GRATISSIMA (AVOCADO) OIL; TRITICUM VULGARE (WHEAT) GERM OIL; FRAGRANCE; SORBITAN OLEATE; MALUS DOMESTICA (APPLE) FRUIT CELL CULTURE EXTRACT; ALCOHOL; PRUNUS DULCIS (SWEET ALMOND) OIL; ETHYLHEXYLGLYCERIN; BORAGO OFFICINALIS (BORAGE) SEED OIL; SODIUM HYALURONATE; LECITHIN; XANTHAN GUM; BENZYL ALCOHOL; CITRIC ACID; ASCORBYL PALMITATE; POTASSIUM SORBATE; LINALOOK, CITRONELLOL; GERANIOL, LIMONENE.</p>
+    <h2>Formula was born in three parts</h2>
+    <p><b>1. Immediate impact -</b> this means seeing actual results within weeks, clients love quick results.</p>
+    <p><b>2. Long-term care -</b> absorbs deeply into skins bottom layers, keeping balance and creating new, healthy tissue and cells.</p>
+    <p><b>3. Jump-starting the body -</b> your skin will think it created the materials on its own, when the serum actually jump-started your body's own system.</p>
+    <p></p>
+    <div class="row">
+      <div class="col-md-6">
+        <p><b>Serum is high in Retinol concentration.</b></p>
+        <p>Quick skin lesson – retinol encourages the body’s production of collagen and elastin and both of these support the skin’s overall youthful look by adding moisture and diminishing wrinkles. As you get older, your body does not produce as much collagen or elastin. When the serum touches your skin, it penetrates the “dermis” layer, a gentle peeling will happen on the top layer of your skin which erases dead cells so new ones can grow. This rejuvenation will transform skin cells damaged by time, sun exposure or using harsh cosmetics. They begin to function like healthy skin cells once again.</p>
+        <p>The serum is also proven to be an effective treatment for Acne. It prevents the pores from clogging and also prevents the formation of dead cells which leads to Acne. Retinol helps shed the dead skin cells and encourages new, healthy skin cells to grow creating a radiant glow and firmness in your skin. This reduces the discoloration of your skin and prevents black heads.</p>
+        <p>Sometimes, Retinol has a “negative” side effect that when mixed with overexposure to sun it creates pigmentation. However, our unique formula and sophisticated scientific technology has “cancelled” this negative side-effect meaning Retinol can provide balance and support without danger of skin discoloration.</p>
+        <p><b>Serum has a high concentration of natural Vitamin C.</b></p>
+        <p>Normally, when we think of Vitamin C we see oranges and people trying to get over a cold. However, the Vitamin C in our serum releases when it touches the skin providing for deep penetration and provides youthful looking skin.</p>
+      </div>
+      <div class="col-md-6">
+        <p><b>Formula is saturated in special (good) oils.</b></p>
+        <p>There is a unique oil from Russia, the Obliphica oil, that originated in the Russian Obliphica fruit plant. This oil is known for its skin-preserving properties as it nourishes and helps heal many kinds of skin damage. This oil is rich in Vitamin C, Vitamin E, flavonoids and carotenoids. With strong antioxidant qualities, it helps protect the skin and delays the aging process. Obliphica oil is rich in essential fatty oils needed to rehab skin, provide nourishment and improve vitality.</p>
+        <p>Richer, fuller, elastic skin that looks youthful and turns heads.</p>
+        <p><b>Vitamin C with amino acids.</b></p>
+        <p>Our serum enhances every layer of skin with a deep well of vitamin penetration. This means that the area of skin between the dermis layers and the epidermis is rich in protein creating a smoother, tighter skin than you have had in years!</p>
+        <p>This serum formula has as many layers as your skin, so every part of your face (inside and out) is fuller, nourished, vibrant and youthful.</p>
+      </div>
+    </div>
   </div>
 </section>
+<style>
+.formula p{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 125.9%;
+  margin-bottom: 15px;
+  color: #151515;
+}
+</style>
+<?php endif; ?>
+
+<?php if(get_the_ID() === 1301 ): ?>
+  <section class="ingredients">
+    <div class="container">
+      <h2>Full List Of Ingredients</h2>
+      <p class="text-center">WATER; PROPYLENE GLYCOL; TOCOPHERYL ACETATE; ISOPROPYL MYRISTATE; SQUALANE; PROPYLENE GLYCOL DICAPRYLATE / DICAPRATE; CYCLOPENTASILOXANE; GLYCERIN; RETINYL PALMITATE; POLYSORBATE 20; PHENOXYETHANOL; AMMONIUM ACRYLOYLDIMETHYLTAURATE / VP COPOLYMER; ALCOHOL; ISOPROPYL PALMITATE; POLYSORBATE 60; HIPPOPHAE RHAMNOIDES (SEA BUCKTHORN) OIL; SODIUM BENZOATE; DIMETHICONE; LECITHIN; BORAGO OFFICINALIS (BORAGE) SEED OIL; CAPRYLIC / CAPRIC TRIGLYCERIDE; ANIBA ROSAEODORA (ROSEWOOD) WOOD OIL; ETHYLHEXYLGLYCERIN; CITRUS AURANTIUM (BITTER ORANGE) PEEL OIL; CITRUS GRANDIS (GRAPEFRUIT) PEEL OIL; CYMBOPOGON CITRATUS (LEMONGRASS) LEAF OIL; MENTHA ARVENSIS LEAF OIL; SODIUM HYALURONATE; CARNOSINE; ASCORBYL PALMITATE; CHAMOMILLA RECUTITA (MATRICARIA) FLOWER EXTRACT; TOCOPHEROL; SILYBUM MARIANUM FRUIT EXTRACT; HEXANOYL DIPEPTIDE-3 NORLEUCINE ACETATE; LINALOOL; CITRAL; GERANIOL; LIMONENE; BENZYL BENZOATE.</p>
+    </div>
+  </section>
+<?php else: ?>
+  <section class="ingredients">
+    <div class="container">
+      <h2>Full List Of Ingredients</h2>
+      <p class="text-center">WATER; ISOPROPYL MYRISTATE; RICINUS COMMUNIS (CASTOR) SEED OIL; SQUALANE; CYCLOPENTASILOXANE; DIMETHICONE; CAPRYLIC/CAPRIC TRIGLYCERIDE; GLYCERIN; TOCOPHERYL ACETATE; SODIUM ACRYLATE / SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER; PHENOXYETHANOL; PANTHENOL; RETINYL PALMITATE; ISOHEXADECANE; POLYSORBATE 20; TITANIUM DIOXIDE; MATRICARIA CHAMOMILLA (GERMAN CHAMOMILE) FLOWER WATER; SODIUM BENZOATE; CALENDULA OFFICINALIS (CALENDULA) FLOWER WATER; POLYSORBATE 80; PERSEA GRATISSIMA (AVOCADO) OIL; TRITICUM VULGARE (WHEAT) GERM OIL; FRAGRANCE; SORBITAN OLEATE; MALUS DOMESTICA (APPLE) FRUIT CELL CULTURE EXTRACT; ALCOHOL; PRUNUS DULCIS (SWEET ALMOND) OIL; ETHYLHEXYLGLYCERIN; BORAGO OFFICINALIS (BORAGE) SEED OIL; SODIUM HYALURONATE; LECITHIN; XANTHAN GUM; BENZYL ALCOHOL; CITRIC ACID; ASCORBYL PALMITATE; POTASSIUM SORBATE; LINALOOK, CITRONELLOL; GERANIOL, LIMONENE.</p>
+    </div>
+  </section>
+<?php endif; ?>
 
 <section class="faq-section">
   <div class="container">
