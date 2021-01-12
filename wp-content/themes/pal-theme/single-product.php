@@ -207,7 +207,7 @@ $id = get_the_ID();
     <p><b>1. Immediate impact -</b> this means seeing actual results within weeks, clients love quick results.</p>
     <p><b>2. Long-term care -</b> absorbs deeply into skins bottom layers, keeping balance and creating new, healthy tissue and cells.</p>
     <p><b>3. Jump-starting the body -</b> your skin will think it created the materials on its own, when the serum actually jump-started your body's own system.</p>
-    <p></p>
+    <p>&nbsp;</p>
     <div class="row">
       <div class="col-md-6">
         <p><b>Serum is high in Retinol concentration.</b></p>
