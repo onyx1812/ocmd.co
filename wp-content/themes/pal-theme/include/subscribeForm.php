@@ -3,11 +3,11 @@
 function subscribeForm(){
 	$email = $_POST['email'];
 
-	$to = "support@sara7skin.com";
-	$subject = 'Subscribing from sara7skin.com';
+	$to = "support@ocmd.co";
+	$subject = 'Subscribing from ocmd.co';
 	$text = 'email: $email';
 
-	$headers = 'From: Subscribe Form <admin@sara7skin.com>' . "\r\n" .
+	$headers = 'From: Subscribe Form <admin@ocmd.co>' . "\r\n" .
 	'Reply-To: $email' . "\r\n" .
 	'X-Mailer: PHP/' . phpversion();
 

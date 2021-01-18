@@ -6,11 +6,11 @@ function contactForm(){
 	$phone = $_POST['phone'];
 	$message = $_POST['message'];
 
-	$to = "support@sara7skin.com";
-	$subject = 'Submiting from contact form sara7skin.com';
+	$to = "support@ocmd.co";
+	$subject = 'Submiting from contact form ocmd.co';
 	$text = 'email: $email; name: $name; phone: $phone; message: $message';
 
-	$headers = 'From: Contact Form <admin@sara7skin.com>' . "\r\n" .
+	$headers = 'From: Contact Form <admin@ocmd.co>' . "\r\n" .
 	'Reply-To: $email' . "\r\n" .
 	'X-Mailer: PHP/' . phpversion();
 

@@ -1462,6 +1462,19 @@ form.checkout_coupon.woocommerce-form-coupon, form.checkout_coupon {
     font-size: 14px;
     font-weight: 400; }
 
+.checkout .woocommerce-input-wrapper > strong {
+  display: block;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #3a3c48;
+  box-sizing: border-box;
+  font-size: 18px;
+  height: 55px;
+  line-height: 55px;
+  font-weight: 400;
+  color: #000; }
+
 .coupon {
   display: block;
   font-weight: 500;
