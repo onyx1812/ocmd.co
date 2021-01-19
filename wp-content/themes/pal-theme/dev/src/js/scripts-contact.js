@@ -20,6 +20,7 @@ contactForm.addEventListener('submit', e => {
 
 	request.onload = function(){
 		if (this.status >= 200 && this.status < 400) {
+			console.log(this.response);
 			if( this.response == 'sucess' ){
 				alert('Thank you for submitting. We will contact you shortly!');
 			} else {
