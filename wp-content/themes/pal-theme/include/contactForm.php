@@ -15,7 +15,7 @@ function contactForm(){
   'Reply-To: $email' . "\r\n" .
   'X-Mailer: PHP/' . phpversion();
 
-  $sending = mail($to, $subject, $text, $headers);
+  $sending = wp_mail($to, $subject, $text, $headers);
 
   if($sending){
     echo 'sucess';
