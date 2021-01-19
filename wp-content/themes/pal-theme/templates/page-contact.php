@@ -4,32 +4,11 @@
  */
 get_header();
 while ( have_posts() ) : the_post();
-
-
-
-    $email = 'max@purpleadlab.com';
-    $name = 'Max';
-    $message = 'Hello world';
-
-    $to = "onyx18121990@gmail.com";
-    $subject = "Your order has been sent";
-    $text =  $message;
-
-    $headers = 'From: Thezense team <admin@ocmd.co>' . "\r\n" .
-    'Reply-To: admin@ocmd.co' . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-
-    $sending = mail($to, $subject, $text, $headers);
-
-    if($sending) echo "Email sent!";
-
-
-
-  ?>
+?>
 
 <section class="page-contact">
   <div class="container">
-    <h1 class="section-title">Contact Us</h1>
+    <h1 class="section-title" style="text-align: center;">Contact Us</h1>
     <h3>Your Satisfaction Is Our Priority!</h3>
     <p class="text-center">We’d love to hear from you and answer any questions you might have about our products or services. <br>Feel free to contact us anytime!</p>
     <p>&nbsp;</p>
