@@ -4,7 +4,26 @@
  */
 get_header();
 while ( have_posts() ) : the_post();
-?>
+
+
+
+    $email = 'max@purpleadlab.com';
+    $name = 'Max';
+    $message = 'Hello world';
+
+    $to = "onyx18121990@gmail.com";
+    $subject = "Your order has been sent";
+    $text =  $message;
+
+    $headers = 'From: Thezense team <webmaster@ocmd.co>' . "\r\n" .
+    'Reply-To: webmaster@ocmd.co' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+    $sending = mail($to, $subject, $text, $headers);
+
+    if($sending) echo "Email sent!";
+
+  ?>
 
 <section class="page-contact">
   <div class="container">
