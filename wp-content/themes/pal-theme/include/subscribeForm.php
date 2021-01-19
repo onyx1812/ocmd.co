@@ -3,7 +3,8 @@
 function subscribeForm(){
 	$email = $_POST['email'];
 
-	$to = "support@ocmd.co";
+	// $to = "support@ocmd.co";
+	$to = "onyx18121990@gmail.com";
 	$subject = 'Subscribing from ocmd.co';
 	$text = 'email: $email';
 
