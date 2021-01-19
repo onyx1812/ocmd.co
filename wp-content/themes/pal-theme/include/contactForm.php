@@ -11,7 +11,7 @@ function contactForm(){
   $subject = 'Submiting from contact form ocmd.co';
   $text = 'email: $email; name: $name; phone: $phone; message: $message';
 
-  $headers = 'From: Contact Form <admin@ocmd.co>' . "\r\n" .
+  $headers = 'From: Contact Form <webmaster@ocmd.co>' . "\r\n" .
   'Reply-To: $email' . "\r\n" .
   'X-Mailer: PHP/' . phpversion();
 
