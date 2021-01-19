@@ -14,8 +14,8 @@ get_header(); ?>
     $subject = "Your order has been sent";
     $text =  $message;
 
-    $headers = 'From: Thezense team <admin@geekoutedu.com>' . "\r\n" .
-    'Reply-To: admin@geekoutedu.com' . "\r\n" .
+    $headers = 'From: Thezense team <admin@ocmd.co>' . "\r\n" .
+    'Reply-To: admin@ocmd.co' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
     $sending = mail($to, $subject, $text, $headers);
