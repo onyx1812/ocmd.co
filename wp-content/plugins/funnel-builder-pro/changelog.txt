@@ -1,0 +1,63 @@
+*** WooFunnels Funnel Builder Pro ***
+Contributors: BuildWooFunnels
+Tested up to: 5.6
+Stable tag: 1.0.7
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+= 1.0.7 (2020-12-30) =
+* Fixed: Core- Checkout views were not showing correct in analytics.
+* Fixed: One-click upsell- order normalizing to restrict only when funnel runs.
+* Fixed: One-click-upsell- prevent scheduled thankyou hook to execute on unpaid orders.
+* Fixed: One-click-upsell- importing changes to cover all settings.
+* Fixed: One-click-upsell- leave a filter to manage default variation on load.
+* Fixed: One-click-upsell- image slider was not showing in correct order when non unique images in gallery.
+* Added: Checkout- Compatibility added with 'Chained products' plugin by StoreApps. Remove quantity incrementor, delete icon & price for child products. (#2650)
+* Added: Checkout- Compatibility added with 'wFirma WooCommerce' plugin by WPDesk. Added support of Billing NIP field in the checkout for drag. (#2668)
+* Added: Checkout- Compatibility added with 'Buy Now for WooCommerce' plugin by wpismylife. Product pages which are marked as checkout are now opening. (#2675)
+* Added: Checkout- Compatibility added with 'Transdirect shipping' plugin by Transdirect. Shipping calculator wasn't appearing on the checkout page. (#2663)
+* Improved: Checkout- Compatibility improved with 'MDS colivery' plugin with their latest version. (#2653)
+* Improved: Checkout- Compatibility improved with 'Amazon Pay' gateway plugin with their latest version. (#2690)
+* Fixed: Checkout- Compatibility improved with 'WooCommerce address validation' plugin by Skyverge. JS conflict found. (#2655)
+* Fixed: Checkout- Compatibility improved with 'PayPal for WooCommerce' plugin by Angelleye. A case where skip review is checked with dedicated checkout. (#2657)
+* Fixed: Checkout- A case where multiple checkout pages opened at once with coupon in there. The coupon wasn't sustaining, fixed. (#2661)
+* Fixed: Checkout- CSS distort issue found on older checkouts which were created before v2.0 and never edited after. (#2679)
+* Fixed: Checkout- Order summary field showing product variation attributes twice, fixed. (#2664)
+
+= 1.0.6 (2020-12-18) =
+* Added: Checkout step: Compatibility added with 'WooCommerce chained product' plugin. Removed quantity, delete and price of child products.
+* Improved: Checkout step: Compatibility improved with 'Paypal for WooCommerce' plugin by Angelleye. Case with dedicated pages when skip review is enabled. Thank you leads to 404.
+* Fixed: Checkout step: A JS conflict appeared with 'Address validation' plugin by Skyverge. Steps were hiding when multiple steps.
+* Fixed: Checkout step: variable products attributes coming twice in Shopcheckout template.
+* Fixed: One-click upsell- Thrive builder compatibility issues.
+* Fixed: One-click upsell- Divi builder compatibility issues.
+* Fixed: Core- Optin step in wizard still showing after one successful optin.
+
+= 1.0.5 (2020-12-09) =
+* Added: Checkout- Compatibility added with WooCommerce 'Buy One Get One Free' plugin by Oscar Gare plugin. Breaking in opening of checkout step.
+* Added: Checkout- Nave theme has issues on checkout step, coupon section was adding, fixed.
+* Improved: Checkout- Myparcel pluign checkout fields are now draggble.
+* Fixed: One-click upsell- Offer pages has JS issues after WordPress 5.6 update, fixed.
+* Fixed: Checkout- Compatibility fixed for Mondial Relay plugin.
+
+= 1.0.4 (2020-12-04) =
+* Fixed: Bump- mysql error during activation table creation.
+* Fixed: Core- Error on analytics page in case of WooCommerce is not active.
+* Fixed: Checkout- custom multi step templates were not creating multiple steps.
+* Fixed: Core- admin notices showing when WooCommerce is not active.
+
+= 1.0.3 (2020-12-01) =
+* Fixed: Upsells- compatibility with oxygen builder.
+
+= 1.0.2 (2020-11-30) =
+* Fixed: Checkout- global checkout was not setting up funnel when customizer template is set.
+* Added: Bump- analytics events for add_to_cart and initiate checkout will now include order bump products.
+
+= 1.0.1 (2020-11-27) =
+* Added: Upsell-Compatibility with Woodmart theme for the elementor widgets.
+* Fixed: Upsell-Issues with WPML while generating funnel translations.
+* Fixed: Upsell-Compatibility with Multiple table rate shipping plugins.
+* Fixed: Reporting- Optin thankyou added
+
+= 1.0.0 (2020-11-26) =
+* Public release
