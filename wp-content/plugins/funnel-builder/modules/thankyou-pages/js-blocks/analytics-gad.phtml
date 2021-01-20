@@ -1,0 +1,33 @@
+<?php $get_hash = $this->get_localstorage_hash(); ?>
+    var wffngadHash = '<?php echo $get_hash; ?>';
+    var wffngadResult = false;
+    try {
+
+        if ('1' === localStorage.getItem("wffnH_" + wffngadHash)) {
+            wffngadResult = true;
+        }
+
+    } catch (exception) {
+
+    }
+    if (false === wffngadResult) {
+        var wffnvarGadPurchaseData = JSON.parse('<?php echo wp_json_encode( $data['gad'] ); ?>');
+wffnvarGadPurchaseData.send_to = '<?php echo esc_js( $this->gad_code() ); ?>';
+
+<?php if(false !== $this->gad_purchase_label()) {
+			?>
+
+			wffnvarGadPurchaseData.send_to = '<?php echo esc_js( $this->gad_code() ); ?>/<?php echo esc_js( $this->gad_purchase_label() ) ?>';
+
+			<?php
+		}?>
+        gtag('event', 'purchase', wffnvarGadPurchaseData);
+        try {
+
+            localStorage.setItem("wffnH_" + wffngadHash, "1");
+
+        } catch (exception) {
+
+        }
+
+    }

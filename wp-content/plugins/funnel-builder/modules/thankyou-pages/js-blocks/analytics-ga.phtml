@@ -1,0 +1,53 @@
+<?php $get_hash = $this->get_localstorage_hash(); ?>
+    var wffnGAHash = '<?php echo $get_hash; ?>';
+    var wffnGAResult = false;
+    try {
+
+    if ('1' === localStorage.getItem("wffnH_" + wffnGAHash)) {
+      wffnGAResult = true;
+    }
+
+    } catch (exception) {
+
+    }
+
+    if(false === wffnGAResult) {
+ <?php if ( $this->do_track_ga_view() ) { ?>
+
+        ga('send', 'pageview');
+ <?php } ?>
+    ga( 'require', 'ecommerce' );
+    ga( 'ecommerce:addTransaction', <?php echo wp_json_encode( $data['ga']['transaction'] ); ?>);
+	<?php
+	foreach ( $data['ga']['products'] as $pro ) {
+		?>
+        ga('ecommerce:addItem', {
+        'id': '<?php echo esc_js( $data['ga']['transaction']['id'] ); ?>',
+        'name': '<?php echo esc_attr( $pro['name'] ); ?>',
+        'sku': '<?php echo esc_attr( $pro['sku'] ); ?>',
+        'category': "<?php echo esc_attr( $pro['category'] ); ?>",
+        'price': '<?php echo esc_js( $pro['price'] ); ?>',
+        'quantity': '<?php echo esc_js( $pro['quantity'] ); ?>'
+        });
+		<?php
+	}
+	?>
+	var wffnGAanalyticsData = {
+	hitType: 'event',
+	eventCategory: 'ecommerce',
+	eventAction: 'purchase',
+	eventValue: <?php echo esc_js( absint( $data['ga']['transaction']['revenue'] ) ); ?>
+	};
+
+	wffnGAanalyticsData = wffnAddTrafficParamsToEvent(wffnGAanalyticsData,'ga');
+    ga('send', wffnGAanalyticsData);
+    ga('ecommerce:send');
+
+try {
+
+	localStorage.setItem( "wffnH_" + wffnGAHash, "1" );
+
+} catch ( exception ) {
+
+}
+}
