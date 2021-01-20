@@ -3,16 +3,16 @@
 function subscribeForm(){
 	$email = $_POST['email'];
 
-	// $to = "support@ocmd.co";
-	$to = "onyx18121990@gmail.com";
-	$subject = 'Subscribing from ocmd.co';
-	$text = 'email: $email';
+	$to = "support@ocmd.co";
+	// $to = "onyx18121990@gmail.com";
+	$subject = 'Subscribing from subscribe form ocmd.co';
+	$text = 'email: '. $email;
 
 	$headers = 'From: Subscribe Form <admin@ocmd.co>' . "\r\n" .
 	'Reply-To: $email' . "\r\n" .
 	'X-Mailer: PHP/' . phpversion();
 
-	$sending = mail($to, $subject, $text, $headers);
+	$sending = wp_mail($to, $subject, $text, $headers);
 
 	if($sending){
 		echo 'sucess';

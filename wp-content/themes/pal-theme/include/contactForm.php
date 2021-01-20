@@ -6,8 +6,8 @@ function contactForm(){
   $phone = $_POST['phone'];
   $message = $_POST['message'];
 
-  // $to = "support@ocmd.co";
-  $to = "onyx18121990@gmail.com";
+  $to = "support@ocmd.co";
+  // $to = "onyx18121990@gmail.com";
   $subject = 'Submiting from contact form ocmd.co';
   $text .= 'email: '. $email . "\r\n";
   $text .= 'name: '. $name . "\r\n";
