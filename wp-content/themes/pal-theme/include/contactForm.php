@@ -9,10 +9,10 @@ function contactForm(){
   // $to = "support@ocmd.co";
   $to = "onyx18121990@gmail.com";
   $subject = 'Submiting from contact form ocmd.co';
-  $text .= 'email: '. $email;
-  $text .= 'name: '. $name;
-  $text .= 'phone: '. $phone;
-  $text .= 'message: '. $message;
+  $text .= 'email: '. $email . "\r\n";
+  $text .= 'name: '. $name . "\r\n";
+  $text .= 'phone: '. $phone . "\r\n";
+  $text .= 'message: '. $message . "\r\n";
 
 
   $headers = 'From: Contact Form <webmaster@ocmd.co>' . "\r\n" .
