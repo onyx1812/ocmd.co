@@ -46,9 +46,23 @@
   <body <?php body_class(); ?> >
 
     <header class="main-header">
+      <?php if(TYPE() === 'post' || is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php', 'upsells/page-1-jars-drc-downsell.php', 'upsells/page-3-jars-drc-downsell.php', 'upsells/page-3-jars-drc-upsell.php', 'upsells/page-6-jars-drc-downsell.php', 'offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php') )): ?>
+      <div class="container">
+      <?php else: ?>
       <div class="container-fluid">
-        <?php if(TYPE() === 'post'): ?>
-        <img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo logo-post">
+      <?php endif; ?>
+        <?php if(TYPE() === 'post' || is_page_template( array('offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php') )): ?>
+        <img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo logo-post" width="160px">
+        <?php elseif( is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php', 'upsells/page-1-jars-drc-downsell.php', 'upsells/page-3-jars-drc-downsell.php', 'upsells/page-3-jars-drc-upsell.php', 'upsells/page-6-jars-drc-downsell.php') ) ): ?>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo">
+          </div>
+          <div class="col-md-8">
+            <h2>Wait! Your Order Is Not Complete!</h2>
+            <h4>Do not hit the back button, as it could cause multiple charges on your card</h4>
+          </div>
+        </div>
         <?php else: ?>
         <div class="row">
           <div class="col-md-3 col-7">
