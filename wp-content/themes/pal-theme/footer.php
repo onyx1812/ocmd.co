@@ -1,3 +1,4 @@
+    <?php if( !is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php', 'upsells/page-1-jars-drc-downsell.php', 'upsells/page-3-jars-drc-downsell.php', 'upsells/page-3-jars-drc-upsell.php', 'upsells/page-6-jars-drc-downsell.php', 'offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php') ) ): ?>
     <footer class="main-footer">
       <div class="container">
         <h2 class="section-title">Subscribe to our newsletters</h2>
@@ -31,6 +32,7 @@
         </div>
       </div>
     </footer>
+  <?php endif; ?>
 
     <?php wp_footer(); ?>
     <?php // get_template_part( 'partials/mg', 'analitics' ); ?>
