@@ -49,7 +49,7 @@ while ( have_posts() ) : the_post();
             <span class="price__regular">$130</span>
             <span class="price__sale">$59.53</span>
           </div>
-          <button class="btn btn-buy">Add to Order</button>
+          <a href="https://ocmd.co?wfocu-accept-link=yes&key=1" class="btn btn-buy">Add to Order</a>
         </div>
       </div>
       <div class="col-md-4">
@@ -60,7 +60,7 @@ while ( have_posts() ) : the_post();
             <span class="price__regular">$260</span>
             <span class="price__sale">$77.72</span>
           </div>
-          <button class="btn btn-buy">Add to Order</button>
+          <a href="https://ocmd.co?wfocu-accept-link=yes&key=2" class="btn btn-buy">Add to Order</a>
         </div>
       </div>
       <div class="col-md-4">
@@ -71,11 +71,11 @@ while ( have_posts() ) : the_post();
             <span class="price__regular">$390</span>
             <span class="price__sale">$104.85</span>
           </div>
-          <button class="btn btn-buy">Add to Order</button>
+          <a href="https://ocmd.co?wfocu-accept-link=yes&key=3" class="btn btn-buy">Add to Order</a>
         </div>
       </div>
     </div>
-    <button class="btn btn-no">No Thanks I’ll pass on these on time savings</button>
+    <a href="https://ocmd.co?wfocu-reject-link=yes" class="btn btn-no">No Thanks I’ll pass on these on time savings</a>
     <p class="text-center"><img src="<?php echo UPSELLS; ?>/img/rev.jpg" alt="" width="790px"></p>
   </div>
 </section>
@@ -107,7 +107,7 @@ while ( have_posts() ) : the_post();
             <span class="price__regular">$130</span>
             <span class="price__sale">$59.53</span>
           </div>
-          <button class="btn btn-buy">Add to Order</button>
+          <a href="https://ocmd.co?wfocu-accept-link=yes&key=1" class="btn btn-buy">Add to Order</a>
         </div>
       </div>
       <div class="col-md-4">
@@ -118,7 +118,7 @@ while ( have_posts() ) : the_post();
             <span class="price__regular">$260</span>
             <span class="price__sale">$77.72</span>
           </div>
-          <button class="btn btn-buy">Add to Order</button>
+          <a href="https://ocmd.co?wfocu-accept-link=yes&key=2" class="btn btn-buy">Add to Order</a>
         </div>
       </div>
       <div class="col-md-4">
@@ -129,11 +129,11 @@ while ( have_posts() ) : the_post();
             <span class="price__regular">$390</span>
             <span class="price__sale">$104.85</span>
           </div>
-          <button class="btn btn-buy">Add to Order</button>
+          <a href="https://ocmd.co?wfocu-accept-link=yes&key=3" class="btn btn-buy">Add to Order</a>
         </div>
       </div>
     </div>
-    <button class="btn btn-no">No Thanks I’ll pass on these on time savings</button>
+    <a href="https://ocmd.co?wfocu-reject-link=yes" class="btn btn-no">No Thanks I’ll pass on these on time savings</a>
   </div>
 </section>
 
