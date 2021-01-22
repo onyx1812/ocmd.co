@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: 6-jars-drc-downsell
+ * Template Name: 6-jars-drc-upsell
  */
 get_header();
 while ( have_posts() ) : the_post();
@@ -64,8 +64,8 @@ while ( have_posts() ) : the_post();
       <p>With this guarantee in place for your protection, my advice would be to  just go ahead and take advantage of the deal and if you're not completely satisfied — for whatever reason — just let our team know and you’ll be refunded every penny. <b>You can even keep the jars!</b> You’re showing us your trust today and showing you the same trust in return only makes sense. </p>
       <p>Click the button below to add 6 bottles of Rejuvenation Complex Cream for only $210.00 + FREE Shipping and Handling</p>
     </div>
-    <button class="btn btn-yes btn-green">YES! Tess I want To Stock Up And Save Big!</button>
-    <button class="btn btn-no">NO THANKS, I UNDERSTAND THAT I WON'T SEE THIS OFFER AGAIN</button>
+    <a href="https://ocmd.co?wfocu-accept-link=yes" class="btn btn-yes btn-green">YES! Tess I want To Stock Up And Save Big!</a>
+    <a href="https://ocmd.co?wfocu-reject-link=yes" class="btn btn-no">NO THANKS, I UNDERSTAND THAT I WON'T SEE THIS OFFER AGAIN</a>
   </div>
 </section>
 

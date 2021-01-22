@@ -47,8 +47,8 @@ while ( have_posts() ) : the_post();
         <h4>YOUR PRICE: $105.00</h4>
       </div>
     </div>
-    <button class="btn btn-yes btn-green">YES! Tess I want To Add 3 Jars To My Order And STILL Save Big</button>
-    <button class="btn btn-no">NO THANKS, I UNDERSTAND THAT I WON'T SEE THIS OFFER AGAIN</button>
+    <a href="https://ocmd.co?wfocu-accept-link=yes" class="btn btn-yes btn-green">YES! Tess I want To Add 3 Jars To My Order And STILL Save Big</a>
+    <a href="https://ocmd.co?wfocu-reject-link=yes" class="btn btn-no">NO THANKS, I UNDERSTAND THAT I WON'T SEE THIS OFFER AGAIN</a>
   </div>
 </section>
 
