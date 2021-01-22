@@ -120,7 +120,7 @@ while ( have_posts() ) : the_post();
                       <div class="product-save">You Save $71</div>
                     </div>
                     <footer>
-                      <a href="#" class="addToCart" id="prod1">Add To Cart</a>
+                      <a href="https://ocmd.co/checkouts/rejuvenation-complex-cream-1-jar-c1off79/" class="addToCart" id="prod1">Add To Cart</a>
                       <span>+ SHIPPING $4.95</span>
                     </footer>
                   </div>
