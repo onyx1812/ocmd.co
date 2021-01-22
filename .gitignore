@@ -21,6 +21,7 @@ wp-content/wp-cache-config.php
 wp-content/uploads/woofunnels/
 wp-content/uploads/woofunnels
 woofunnels/
+wp-content/uploads/woofunnels/wfacp-transient/_woofunnels_transient_wfacp_wfacp_post_meta0
 
 # Add rules from terminal
 # git update-index --skip-worktree -- wp-config.php
