@@ -133,7 +133,7 @@ while ( have_posts() ) : the_post();
                       <div class="product-save">You Save $480</div>
                     </div>
                     <footer>
-                      <a href="#" class="addToCart" id="prod3">Add To Cart</a>
+                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-3-jars-c3off73" class="addToCart" id="prod3">Add To Cart</a>
                       <span>+ Free Shipping</span>
                     </footer>
                   </div>
@@ -146,7 +146,7 @@ while ( have_posts() ) : the_post();
                       <div class="product-save">You Save $231</div>
                     </div>
                     <footer>
-                      <a href="#" class="addToCart" id="prod2">Add To Cart</a>
+                      <a href="https://ocmd.co/checkouts/rejuvenation-complex-cream-6-jars-c6off70/" class="addToCart" id="prod2">Add To Cart</a>
                       <span>+ Free Shipping</span>
                     </footer>
                   </div>
