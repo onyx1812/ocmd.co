@@ -143,3 +143,12 @@
 // /*-----END ZIP-----*/
 
 // })();
+
+(function(){
+  let subscriptions = document.querySelectorAll('.product-total .subscription-price');
+  if(subscriptions.length > 0){
+    console.log('remove it');
+    document.querySelector('.expect-list li:first-child').style.display = 'none';
+    document.querySelector('.expect-list li:nth-child(2)').style.marginTop = '0';
+  }
+})();
