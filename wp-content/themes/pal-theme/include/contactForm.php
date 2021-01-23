@@ -5,18 +5,19 @@ function contactForm(){
   $name = $_POST['name'];
   $phone = $_POST['phone'];
   $message = $_POST['message'];
+  $date = date("F j, Y, g:i a");
 
   $to = "support@ocmd.co";
   // $to = "onyx18121990@gmail.com";
-  $subject = 'Submiting from contact form ocmd.co';
+  $subject = 'OCMD Support Request <<'.$email.'>> <<'.$date.'>>';
   $text .= 'email: '. $email . "\r\n";
   $text .= 'name: '. $name . "\r\n";
   $text .= 'phone: '. $phone . "\r\n";
   $text .= 'message: '. $message . "\r\n";
 
 
-  $headers = 'From: Contact Form <webmaster@ocmd.co>' . "\r\n" .
-  'Reply-To: $email' . "\r\n" .
+  $headers = 'From: OCMD LLC <support@ocmd.co>' . "\r\n" .
+  'Reply-To: .'.$email. "\r\n" .
   'X-Mailer: PHP/' . phpversion();
 
   $sending = wp_mail($to, $subject, $text, $headers);
