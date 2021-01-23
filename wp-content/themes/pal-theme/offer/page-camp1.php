@@ -111,7 +111,6 @@ while ( have_posts() ) : the_post();
             </ul>
             <div class="products-tabs__tab tab1 active">
               <div class="row">
-                <?php $products = [1659, 1660, 1661]; ?>
                 <div class="col-12 col-lg-4">
                   <div class="product">
                     <div class="product-quantity">1<br>Jar</div>
@@ -155,7 +154,6 @@ while ( have_posts() ) : the_post();
             </div>
             <div class="products-tabs__tab tab2">
               <div class="row">
-                <?php $products = [1662, 1663, 1664]; ?>
                 <div class="col-12 col-lg-4">
                   <div class="product">
                     <div class="product-quantity">1<br>Jar</div>

@@ -111,7 +111,6 @@ while ( have_posts() ) : the_post();
             </ul>
             <div class="products-tabs__tab tab1 active">
               <div class="row">
-                <?php $products = [1671, 1672, 1673]; ?>
                 <div class="col-12 col-lg-4">
                   <div class="product">
                     <div class="product-quantity">1<br>Jar</div>
@@ -120,7 +119,7 @@ while ( have_posts() ) : the_post();
                       <div class="product-save">You Save $41</div>
                     </div>
                     <footer>
-                      <a href="#" class="addToCart" id="prod1">Add To Cart</a>
+                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-1-jar-c1off59/" class="addToCart" id="prod1">Add To Cart</a>
                       <span>+ SHIPPING $4.95</span>
                     </footer>
                   </div>
@@ -133,7 +132,7 @@ while ( have_posts() ) : the_post();
                       <div class="product-save">You Save $360</div>
                     </div>
                     <footer>
-                      <a href="#" class="addToCart" id="prod3">Add To Cart</a>
+                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-6-jars-c6off50/" class="addToCart" id="prod3">Add To Cart</a>
                       <span>+ Free Shipping</span>
                     </footer>
                   </div>
@@ -146,7 +145,7 @@ while ( have_posts() ) : the_post();
                       <div class="product-save">You Save $171</div>
                     </div>
                     <footer>
-                      <a href="#" class="addToCart" id="prod2">Add To Cart</a>
+                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-3-jars-c3off53/" class="addToCart" id="prod2">Add To Cart</a>
                       <span>+ Free Shipping</span>
                     </footer>
                   </div>
@@ -155,7 +154,6 @@ while ( have_posts() ) : the_post();
             </div>
             <div class="products-tabs__tab tab2">
               <div class="row">
-                <?php $products = [1674, 1675, 1676]; ?>
                 <div class="col-12 col-lg-4">
                   <div class="product">
                     <div class="product-quantity">1<br>Jar</div>
@@ -164,7 +162,7 @@ while ( have_posts() ) : the_post();
                       <div class="product-save">You Save $48</div>
                     </div>
                     <footer>
-                      <a href="#" class="addToCart" id="prod4">Add To Cart</a>
+                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-1-jar-subc1off59/" class="addToCart" id="prod4">Add To Cart</a>
                       <span>+ SHIPPING $4.95</span>
                     </footer>
                   </div>
@@ -177,7 +175,7 @@ while ( have_posts() ) : the_post();
                       <div class="product-save">You Save $396</div>
                     </div>
                     <footer>
-                      <a href="#" class="addToCart" id="prod6">Add To Cart</a>
+                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-6-jars-subc6off50/" class="addToCart" id="prod6">Add To Cart</a>
                       <span>+ Free Shipping</span>
                     </footer>
                   </div>
@@ -190,7 +188,7 @@ while ( have_posts() ) : the_post();
                       <div class="product-save">You Save $189</div>
                     </div>
                     <footer>
-                      <a href="#" class="addToCart" id="prod5">Add To Cart</a>
+                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-3-jars-subc3off53/" class="addToCart" id="prod5">Add To Cart</a>
                       <span>+ Free Shipping</span>
                     </footer>
                   </div>
