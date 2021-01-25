@@ -335,3 +335,23 @@ function product_custom($id, $best){
 //   $mailer->SMTPDebug = 2; // write 0 if you don't want to see client/server communication in page
 //   $mailer->CharSet  = "utf-8";
 // }
+
+
+// add_filter( 'wp_mail_from', function( $email ) {
+//   return 'support@ocmd.co';
+// });
+
+
+// // Function to change email address
+// function wpb_sender_email( $original_email_address ) {
+//     return 'support@ocmd.co';
+// }
+
+// // Function to change sender name
+// function wpb_sender_name( $original_email_from ) {
+//     return 'OCMD LLC';
+// }
+
+// // Hooking up our functions to WordPress filters
+// add_filter( 'wp_mail_from', 'wpb_sender_email' );
+// add_filter( 'wp_mail_from_name', 'wpb_sender_name' );

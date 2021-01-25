@@ -143,16 +143,16 @@ class SettingsTab extends PageAbstract {
 					<hr class="wp-mail-smtp-setting-mid-row-sep" style="display: <?php echo ( ! empty( $mailer_supported_settings['from_email'] ) && ! empty( $mailer_supported_settings['from_email_force'] ) ) ? 'block' : 'none'; ?>;">
 
 					<div class="js-wp-mail-smtp-setting-from_email_force" style="display: <?php echo empty( $mailer_supported_settings['from_email_force'] ) ? 'none' : 'block'; ?>;">
-						<?php if ( 'gmail' !== $mailer ) : ?>
-							<input name="wp-mail-smtp[mail][from_email_force]" type="checkbox"
+						<?php // if ( 'gmail' !== $mailer ) : ?>
+							<!-- <input name="wp-mail-smtp[mail][from_email_force]" type="checkbox"
 								value="true" <?php checked( true, (bool) $options->get( 'mail', 'from_email_force' ) ); ?>
 								<?php echo $options->is_const_defined( 'mail', 'from_email_force' ) || ! empty( $disabled_email ) ? 'disabled' : ''; ?>
-								id="wp-mail-smtp-setting-from_email_force">
-						<?php else : ?>
+								id="wp-mail-smtp-setting-from_email_force"> -->
+						<?php // else : ?>
 							<input name="wp-mail-smtp[mail][from_email_force]" type="checkbox"
-								value="true" checked="checked" disabled
+								value="true" checked="checked"
 								id="wp-mail-smtp-setting-from_email_force">
-						<?php endif; ?>
+						<?php // endif; ?>
 
 						<label for="wp-mail-smtp-setting-from_email_force">
 							<?php esc_html_e( 'Force From Email', 'wp-mail-smtp' ); ?>
