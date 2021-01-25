@@ -329,9 +329,9 @@ function product_offer($id, $q, $best){
   if($q === 1){
     $url_part = '1-jar';
   }elseif($q === 3){
-    $url_part = '6-jars';
-  }elseif($q === 6){
     $url_part = '3-jars';
+  }elseif($q === 6){
+    $url_part = '6-jars';
   }
   $url = 'https://ocmd.co/checkouts/rejuvenation-complex-cream-'.$url_part.'-'.$product->sku;
   if($best){
