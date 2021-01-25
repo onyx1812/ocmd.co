@@ -112,86 +112,26 @@ while ( have_posts() ) : the_post();
             <div class="products-tabs__tab tab1 active">
               <div class="row">
                 <div class="col-12 col-lg-4">
-                  <div class="product">
-                    <div class="product-quantity">1<br>Jar</div>
-                    <div class="product-inner">
-                      <div class="product-price">$79<span>/ea</span></div>
-                      <div class="product-save">You Save $31</div>
-                    </div>
-                    <footer>
-                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-1-jar-c1off49/" class="addToCart" id="prod1">Add To Cart</a>
-                      <span>+ SHIPPING $4.95</span>
-                    </footer>
-                  </div>
+                  <?php product_offer(1677, 1, false); ?>
                 </div>
                 <div class="col-12 col-lg-4">
-                  <div class="product product-best">
-                    <div class="product-quantity">6<br>Jars</div>
-                    <div class="product-inner">
-                      <div class="product-price">$70<span>/ea</span></div>
-                      <div class="product-save">You Save $300</div>
-                    </div>
-                    <footer>
-                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-6-jars-c6off40/" class="addToCart" id="prod3">Add To Cart</a>
-                      <span>+ Free Shipping</span>
-                    </footer>
-                  </div>
+                  <?php product_offer(1678, 6, true); ?>
                 </div>
                 <div class="col-12 col-lg-4">
-                  <div class="product">
-                    <div class="product-quantity">3<br>Jars</div>
-                    <div class="product-inner">
-                      <div class="product-price">$73<span>/ea</span></div>
-                      <div class="product-save">You Save $141</div>
-                    </div>
-                    <footer>
-                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-3-jars-c3off43/" class="addToCart" id="prod2">Add To Cart</a>
-                      <span>+ Free Shipping</span>
-                    </footer>
-                  </div>
+                  <?php product_offer(1679, 3, false); ?>
                 </div>
               </div>
             </div>
             <div class="products-tabs__tab tab2">
               <div class="row">
                 <div class="col-12 col-lg-4">
-                  <div class="product">
-                    <div class="product-quantity">1<br>Jar</div>
-                    <div class="product-inner">
-                      <div class="product-price">$71<span>/ea <span style="font-size: 70%;">Monthly</span></span></div>
-                      <div class="product-save">You Save $39</div>
-                    </div>
-                    <footer>
-                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-1-jar-subc1off49/" class="addToCart" id="prod4">Add To Cart</a>
-                      <span>+ SHIPPING $4.95</span>
-                    </footer>
-                  </div>
+                  <?php product_offer(1680, 1, false); ?>
                 </div>
                 <div class="col-12 col-lg-4">
-                  <div class="product product-best">
-                    <div class="product-quantity">6<br>Jars</div>
-                    <div class="product-inner">
-                      <div class="product-price">$63<span>/ea <span style="font-size: 70%;">Monthly</span></span></div>
-                      <div class="product-save">You Save $342</div>
-                    </div>
-                    <footer>
-                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-6-jars-subc6off40/" class="addToCart" id="prod6">Add To Cart</a>
-                      <span>+ Free Shipping</span>
-                    </footer>
-                  </div>
+                  <?php product_offer(1682, 6, true); ?>
                 </div>
                 <div class="col-12 col-lg-4">
-                  <div class="product">
-                    <div class="product-quantity">3<br>Jars</div>
-                    <div class="product-inner">
-                      <div class="product-price">$66<span>/ea <span style="font-size: 70%;">Monthly</span></span></div>
-                      <div class="product-save">You Save $162</div>
-                    </div>
-                    <footer>
-                      <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-3-jars-subc3off43/" class="addToCart" id="prod5">Add To Cart</a>
-                      <span>+ Free Shipping</span>
-                    </footer>
-                  </div>
+                  <?php product_offer(1681, 3, false); ?>
                 </div>
               </div>
             </div>
