@@ -324,6 +324,37 @@ function product_custom($id, $best){
   ';
 }
 
+function product_offer($id, $q, $best){
+  $product = wc_get_product( $id );
+  if($q === 1){
+    $url_part = '1-jar';
+  }elseif($q === 3){
+    $url_part = '6-jars';
+  }elseif($q === 6){
+    $url_part = '3-jars';
+  }
+  $url = 'https://ocmd.co/checkouts/rejuvenation-complex-cream-'.$url_part.'-'.$product->sku;
+  if($best){
+    $class = 'product product-best';
+  } else {
+    $class = 'product';
+  }
+
+  echo '
+    <div class="'. $class .'">
+      <div class="product-quantity">'. get_field('simple_jars', $id) .'</div>
+      <div class="product-inner">
+        <div class="product-price">'. get_field('simple_price', $id) .'</div>
+        <div class="product-save">'. get_field('simple_save', $id) .'</div>
+      </div>
+      <footer>
+        <a href="'.$url.'" class="buy-now button">Add To Cart</a>
+        <span>'. get_field('simple_ship', $id) .'</span>
+      </footer>
+    </div>
+  ';
+}
+
 
 
 
