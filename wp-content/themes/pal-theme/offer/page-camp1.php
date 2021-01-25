@@ -112,7 +112,8 @@ while ( have_posts() ) : the_post();
             <div class="products-tabs__tab tab1 active">
               <div class="row">
                 <div class="col-12 col-lg-4">
-                  <div class="product">
+                  <?php product_offer(1659, 1, false); ?>
+                  <!-- <div class="product">
                     <div class="product-quantity">1<br>Jar</div>
                     <div class="product-inner">
                       <div class="product-price">$49<span>/ea</span></div>
@@ -122,10 +123,11 @@ while ( have_posts() ) : the_post();
                       <a href="https://ocmd.co/checkouts/rejuvenation-complex-cream-1-jar-c1off79/" class="addToCart" id="prod1">Add To Cart</a>
                       <span>+ SHIPPING $4.95</span>
                     </footer>
-                  </div>
+                  </div> -->
                 </div>
                 <div class="col-12 col-lg-4">
-                  <div class="product product-best">
+                  <?php product_offer(1661, 6, true); ?>
+                  <!-- <div class="product product-best">
                     <div class="product-quantity">6<br>Jars</div>
                     <div class="product-inner">
                       <div class="product-price">$40<span>/ea</span></div>
@@ -135,10 +137,11 @@ while ( have_posts() ) : the_post();
                       <a href="https://ocmd.co/checkouts/rejuvenation-complex-cream-6-jars-c6off70/" class="addToCart" id="prod3">Add To Cart</a>
                       <span>+ Free Shipping</span>
                     </footer>
-                  </div>
+                  </div> -->
                 </div>
                 <div class="col-12 col-lg-4">
-                  <div class="product">
+                  <?php product_offer(1660, 3, false); ?>
+                  <!-- <div class="product">
                     <div class="product-quantity">3<br>Jars</div>
                     <div class="product-inner">
                       <div class="product-price">$43<span>/ea</span></div>
@@ -148,14 +151,15 @@ while ( have_posts() ) : the_post();
                       <a href="http://ocmd.co/checkouts/rejuvenation-complex-cream-3-jars-c3off73" class="addToCart" id="prod2">Add To Cart</a>
                       <span>+ Free Shipping</span>
                     </footer>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
             <div class="products-tabs__tab tab2">
               <div class="row">
                 <div class="col-12 col-lg-4">
-                  <div class="product">
+                  <?php product_offer(1662, 1, false); ?>
+                  <!-- <div class="product">
                     <div class="product-quantity">1<br>Jar</div>
                     <div class="product-inner">
                       <div class="product-price">$44<span>/ea <span style="font-size: 70%;">Monthly</span></span></div>
@@ -165,10 +169,11 @@ while ( have_posts() ) : the_post();
                       <a href="https://ocmd.co/checkouts/rejuvenation-complex-cream-1-jar-subc1off79/" class="addToCart" id="prod4">Add To Cart</a>
                       <span>+ SHIPPING $4.95</span>
                     </footer>
-                  </div>
+                  </div> -->
                 </div>
                 <div class="col-12 col-lg-4">
-                  <div class="product product-best">
+                  <?php product_offer(1664, 6, true); ?>
+                  <!-- <div class="product product-best">
                     <div class="product-quantity">6<br>Jars</div>
                     <div class="product-inner">
                       <div class="product-price">$36<span>/ea <span style="font-size: 70%;">Monthly</span></span></div>
@@ -178,10 +183,11 @@ while ( have_posts() ) : the_post();
                       <a href="https://ocmd.co/checkouts/rejuvenation-complex-cream-6-jars-subc6off70/" class="addToCart" id="prod6">Add To Cart</a>
                       <span>+ Free Shipping</span>
                     </footer>
-                  </div>
+                  </div> -->
                 </div>
                 <div class="col-12 col-lg-4">
-                  <div class="product">
+                  <?php product_offer(1663, 3, false); ?>
+                  <!-- <div class="product">
                     <div class="product-quantity">3<br>Jars</div>
                     <div class="product-inner">
                       <div class="product-price">$39<span>/ea <span style="font-size: 70%;">Monthly</span></span></div>
@@ -191,7 +197,7 @@ while ( have_posts() ) : the_post();
                       <a href="https://ocmd.co/checkouts/rejuvenation-complex-cream-3-jars-subc3off73/" class="addToCart" id="prod5">Add To Cart</a>
                       <span>+ Free Shipping</span>
                     </footer>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>

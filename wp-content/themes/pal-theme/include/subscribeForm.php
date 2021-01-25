@@ -17,29 +17,28 @@ function subscribeForm(){
 	$sending = wp_mail($to, $subject, $text, $headers);
 
 	if($sending){
-		echo 'sucess';
+			/*Send email to sibscriber*/
+			$email = $_POST['email'];
+
+			$to = $email;
+			$subject = 'Welcome to the OCMD Newsletter';
+			$text = 'Hi '.$email. "\r\n";
+			$text .= 'We are excited to welcome you to our exclusive OCMD Newsletter.';
+
+			$headers = 'From: Subscribe Form <admin@ocmd.co>' . "\r\n" .
+			'Reply-To: '.$email.'' . "\r\n" .
+			'X-Mailer: PHP/' . phpversion();
+
+			$sending = wp_mail($to, $subject, $text, $headers);
+
+			if($sending){
+				echo 'sucess';
+			} else {
+				echo 'error';
+			}
 	} else {
 		echo 'error';
 	}
-
-	// /*Send email to sibscriber*/
-	// $email = $_POST['email'];
-
-	// $to = $email;
-	// $subject = 'Subscribing from subscribe form ocmd.co';
-	// $text = 'email: '. $email;
-
-	// $headers = 'From: Subscribe Form <admin@ocmd.co>' . "\r\n" .
-	// 'Reply-To: '.$email.'' . "\r\n" .
-	// 'X-Mailer: PHP/' . phpversion();
-
-	// $sending = wp_mail($to, $subject, $text, $headers);
-
-	// if($sending){
-	// 	echo 'sucess';
-	// } else {
-	// 	echo 'error';
-	// }
 
 	wp_die();
 }
