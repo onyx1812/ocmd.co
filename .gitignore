@@ -20,11 +20,17 @@ wp-content/wp-cache-config.php
 
 wp-content/uploads/woofunnels/
 wp-content/uploads/woofunnels
+
 woofunnels/
-wp-content/uploads/woofunnels/wfacp-transient/_woofunnels_transient_wfacp_wfacp_post_meta0
 wp-content/uploads/
 wp-content/uploads/woofunnels/
 wp-content/uploads/woofunnels/wfacp-transient/
+wp-content/uploads/woofunnels/bwf-transient/_woofunnels_transient_bwf__bwf_fb_templates
+wp-content/uploads/woofunnels/upstroke-reports-transient/_woofunnels_transient_upstroke-reports_wfocu_db_track
+wp-content/uploads/woofunnels/wfacp-transient/_woofunnels_transient_wfacp_wfacp_post_meta0
+wp-content/uploads/woofunnels/wfacp-transient/_woofunnels_transient_wfacp_wfacp_post_meta1620
+wp-content/uploads/woofunnels/wfacp-transient/_woofunnels_transient_wfacp_wfacp_publish_posts
+wp-content/uploads/woofunnels/wffn-transient/_woofunnels_transient_wffn_30525e1ddc050d8903d906d0522c42b5
 
 # Add rules from terminal
 # git update-index --skip-worktree -- wp-config.php
