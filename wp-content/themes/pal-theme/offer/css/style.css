@@ -1077,7 +1077,7 @@ body, html {
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%); }
   .solutions-title span {
-    background: #F9F5F4;
+    background: #fff;
     padding: 0 10px;
     display: inline-block;
     position: relative;
@@ -1948,6 +1948,10 @@ body, html {
         margin-right: 20px; } }
     .footer-info li:first-child {
       border-left: none; }
+      .footer-info li a{
+        color: #2d2d2d;
+        text-decoration: none;
+      }
 
 .footer-box {
   display: block;

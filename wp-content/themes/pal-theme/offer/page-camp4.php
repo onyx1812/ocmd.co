@@ -509,7 +509,7 @@ while ( have_posts() ) : the_post();
         <li><a href="#" data-popup="refunds">Refunds & Returns</a></li>
       </ul>
       <ul class="footer-info">
-        <li>support@ocmd.co</li>
+        <li><a href="mailto:support@ocmd.co">support@ocmd.co</a></li>
       </ul>
       <div class="footer-box">The information presented on this website is not intended as specific medical advice and
         is not a substitute for professional treatment or diagnosis. These statements have not been evaluated by the
