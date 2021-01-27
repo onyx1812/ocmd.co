@@ -1176,6 +1176,7 @@ body, html {
         line-height: 22px; } }
     .list-values li:before {
       content: "✓";
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
       color: #02b402;
       font-weight: 700;
       margin-right: 10px; }

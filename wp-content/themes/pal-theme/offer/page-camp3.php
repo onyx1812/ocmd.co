@@ -180,7 +180,6 @@ while ( have_posts() ) : the_post();
           <ul class="resp-nav">
             <li data-resp="resp1" class="active">Product Details</li>
             <li data-resp="resp2">Benefits</li>
-            <!-- <li data-resp="resp3">Ingredients</li> -->
             <li data-resp="resp4">How It Works</li>
             <li data-resp="resp5">Our Guarantee</li>
             <li data-resp="resp6">About OCMD</li>
@@ -283,27 +282,6 @@ while ( have_posts() ) : the_post();
             </div>
           </div>
         </div>
-        <!-- <button data-respa="resp3"  class="accordion useAccordion">Ingredients</button>
-        <div class="resp-tab resp3">
-          <h2>Ingredients</h2>
-          <div class="ingr">
-            <div class="ingr-box">
-              <img src="<?php echo OFFER; ?>/img/ingr-img1.png" alt="">
-              <h3>Progeline</h3>
-              <p>The age-defying breakthrough works by dramatically reducing levels of a toxic protein scientifically linked to thin, aging skin. In an industry case study, a vast majority of ladies saw an increase in firmness and skin density from just the progeline alone.</p>
-            </div>
-            <div class="ingr-box">
-              <img src="<?php echo OFFER; ?>/img/ingr-img2.png" alt="">
-              <h3>Matrixyl 3000</h3>
-              <p>A potent age-fighting compound that sends signals to replace lost collagen. Collagen is responsible for keeping the skin strong and firm. Matrixyl 3000 boosts collagen levels, restoring thickness and density to thin aging skin.</p>
-            </div>
-            <div class="ingr-box">
-              <img src="<?php echo OFFER; ?>/img/ingr-img3.png" alt="">
-              <h3>Argireline</h3>
-              <p>Another potent age-fighting compound that sends signals to your skin to replace lost collagen. Collagen is responsible for keeping the skin strong and firm. Matrixyl 3000 boosts collagen levels, restoring thickness and density to thin aging skin.</p>
-            </div>
-          </div>
-        </div> -->
         <button data-respa="resp4"  class="accordion useAccordion">How It Works</button>
         <div class="resp-tab resp4">
           <h2>How It Works</h2>
@@ -425,14 +403,6 @@ while ( have_posts() ) : the_post();
     <div class="container">
       <h2>OCMD <br> Frequently Asked Questions</h2>
       <div class="faq-box">
-        <!-- <div class="faq active">
-          <div class="question">What’s the “Aging Protein” Progerin Again?</div>
-          <div class="answer">
-            It’s a protein molecule that builds up in your skin cells. The science says it can prevent healthy new cell growth and cause loose, saggy skin. <br><br>
-            Every year, progerin increases in women by 3%. By the time you’re 40, your levels become so high you have to do something. <br><br>
-            In short, groundbreaking research shows that Progerin could be the true cause of aging skin and Dr. J has used cutting-edge science to perfectly formulate OCMD’s Rejuvenation Complex Cream to block the effects of the toxic “aging protein” Progerin.
-          </div>
-        </div> -->
         <div class="faq active">
           <div class="question">How Long Until I see Results?</div>
           <div class="answer">
