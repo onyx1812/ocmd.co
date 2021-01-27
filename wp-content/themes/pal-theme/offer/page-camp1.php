@@ -25,9 +25,6 @@ while ( have_posts() ) : the_post();
             </ul>
             <div class="products-tabs__tab tab1 active">
               <div class="row">
-                <?php
-                  // $products = []
-                ?>
                 <div class="col-12 col-lg-4">
                   <?php product_offer(1659, 1, false); ?>
                 </div>
