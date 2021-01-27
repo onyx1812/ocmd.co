@@ -332,6 +332,8 @@ span.wfacp_mini_cart_item_title strong.product-quantity{
 }
 .wfacp_custom_breadcrumb .wfacp_steps_sec ul li{
   position: relative;
+  visibility: hidden;
+  display: none;
 }
 
 .checkout-moneyback {
@@ -397,10 +399,67 @@ body .wfacp_main_form.woocommerce input[type=text], body .wfacp_main_form.woocom
 }
 .wfacp_custom_breadcrumb .wfacp_steps_sec ul {
   margin: 0 auto 15px;
+  background: url(https://ocmd.co/wp-content/themes/pal-theme/offer/img/chkl-stp-img.png) no-repeat center center/100% auto;
+  width: 520px;
+  height: 52px;
+  max-width: 100%;
 }
 .wfacp_steps_sec {
-  margin-top: 45px;
+  margin-top: 30px;
 }
 .wfacp_custom_breadcrumb {
   margin: 5px auto 30px;
+}
+.wfacp_product_subs_details {
+  display: none;
+}
+
+.wfacp-left-panel.single_step {
+  background: url(https://ocmd.co/wp-content/themes/pal-theme/offer/img/header.png) no-repeat 0 0/100% auto;
+  padding-top: calc(100% * 100 / 632 + 30px);
+}
+@media(max-width:768px){
+  .wfacp-left-panel.single_step {
+    background-image: url(https://ocmd.co/wp-content/themes/pal-theme/offer/img/header_mob.png);
+    padding-top: calc(100% * 249 / 307 + 30px);
+  }
+}
+
+.wfacp-left-panel.two_step {
+  background: url(https://ocmd.co/wp-content/themes/pal-theme/offer/img/header2.png) no-repeat 0 0/100% auto;
+  padding-top: calc(100% * 36 / 632 + 30px);
+}
+@media(max-width:768px){
+  .wfacp-left-panel.two_step {
+    background-image: url(https://ocmd.co/wp-content/themes/pal-theme/offer/img/header2_mob.png);
+    padding-top: calc(100% * 88 / 307 + 30px);
+  }
+}
+
+.wfacp_main_form .wfacp-comm-title{
+  display: none;
+}
+
+@media(max-width:767px){
+  body.yes_sticky .wfacp-form .wfacp_main_form .woocommerce-checkout #payment button#place_order, body.yes_sticky .wfacp-form .wfacp_main_form .woocommerce-checkout button#place_order, body.yes_sticky .wfacp-form .wfacp_main_form .woocommerce-checkout button.wfacp_next_page_button {
+    position: relative;
+    margin-bottom: 15px;
+  }
+}
+
+body .wfacp_main_form .woocommerce-checkout .wfacp-next-btn-wrap{
+  text-align: left;
+}
+
+.wfacp-two-step-erap.wfacp-next-btn-wrap:after {
+  content: "";
+  width: 440px;
+  height: 40px;
+  background: url(https://ocmd.co/wp-content/themes/pal-theme/offer/img/secur-img.png) no-repeat 0 0/100% auto;
+  display: block;
+  margin-top: 15px;
+}
+
+.two_step .wfacp-two-step-erap.wfacp-next-btn-wrap:after {
+  display: none;
 }
