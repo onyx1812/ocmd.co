@@ -9,8 +9,8 @@ get_header(); ?>
     <div class="row row-center">
       <div class="col-lg-7 order-md-2">
         <h2 class="section-title">Dr. Tess Mauricio</h2>
-        <h4 class="section-subtitle">“You can now bring the same procedures that thousands of my patients use in my clinic to erase years of wrinkles to your home.”</h4>
-        <p><span class="link link-def" style="text-decoration: none!important;">Board Certified Dermatologist, fellow of the American Academy of Dermatology</span></p>
+        <h4 class="section-subtitle">“You can now bring some of the results of procedures that thousands of my patients use in my clinic to erase years of wrinkles to your home.”</h4>
+        <p><span class="link link-def" style="text-decoration: none!important;">Stanford educated Board Certified Dermatologist</span></p>
       </div>
       <div class="col-lg-5 text-right"><img src="<?php IMG(); ?>/tessmauricio.jpg" alt="" width="400"></div>
     </div>
