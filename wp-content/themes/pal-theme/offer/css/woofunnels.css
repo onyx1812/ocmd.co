@@ -458,6 +458,7 @@ body .wfacp_main_form .woocommerce-checkout .wfacp-next-btn-wrap{
   background: url(https://ocmd.co/wp-content/themes/pal-theme/offer/img/secur-img.png) no-repeat 0 0/100% auto;
   display: block;
   margin-top: 15px;
+  max-width: 100%;
 }
 
 .two_step .wfacp-two-step-erap.wfacp-next-btn-wrap:after {
