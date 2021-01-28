@@ -11,11 +11,8 @@ define('VIDEO', ROOT . '/video');
 
 function TYPE(){
   global $post;
-  echo '<script>console.log(111111 - '.$post->post_type.');</script>';
   return $post->post_type;
 }
-
-TYPE();
 
 function replace_core_jquery_version() {
   wp_deregister_script( 'jquery' );

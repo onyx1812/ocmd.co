@@ -18,7 +18,6 @@
       const vh = window.innerHeight * 0.01;
       document.documentElement.style.setProperty('--vh', `${vh}px`);
       const pageID = <?php echo get_the_ID(); ?>;
-      const post_type = '<?php TYPE(); ?>';
     </script>
 
     <!-- Facebook Pixel Code -->
