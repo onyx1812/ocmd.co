@@ -14,7 +14,7 @@ function TYPE(){
   return $post->post_type;
 }
 
-TYPE();
+echo TYPE();
 
 function replace_core_jquery_version() {
   wp_deregister_script( 'jquery' );
