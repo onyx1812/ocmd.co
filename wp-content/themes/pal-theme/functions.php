@@ -386,11 +386,3 @@ function product_offer($id, $q, $best){
 // // Hooking up our functions to WordPress filters
 // add_filter( 'wp_mail_from', 'wpb_sender_email' );
 // add_filter( 'wp_mail_from_name', 'wpb_sender_name' );
-
-
-
-
-
-
-global $post;
-var_dump($post);
