@@ -14,7 +14,7 @@ function TYPE(){
   return $post->post_type;
 }
 
-echo TYPE();
+echo '<script>console.log(111111 - '.TYPE().');</script>';
 
 function replace_core_jquery_version() {
   wp_deregister_script( 'jquery' );
