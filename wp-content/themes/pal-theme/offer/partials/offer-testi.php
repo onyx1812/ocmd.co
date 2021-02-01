@@ -1,6 +1,7 @@
 <section class="testi">
   <div class="container">
     <h2>OCMD <br> Customer Testimonials</h2>
+    <p>*Results may vary by individual</p>
     <div class="testi-sec">
       <div class="testi-bx">
         <span>L</span>

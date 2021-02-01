@@ -1674,12 +1674,15 @@ body, html {
     line-height: 34px;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 15px; }
+    margin-bottom: 5px; }
     @media (min-width: 992px) {
       .testi h2 {
         font-size: 40px;
-        line-height: 44px;
-        margin-bottom: 30px; } }
+        line-height: 44px; } }
+  .testi h2 + p{
+    text-align: center;
+    font-size: 14px;
+  }
   .testi-bx {
     position: relative;
     margin-top: 15px;
