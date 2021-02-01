@@ -53,11 +53,11 @@
       <div class="container-fluid">
       <?php endif; ?>
         <?php if(TYPE() === 'post' || is_page_template( array('offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php') )): ?>
-        <img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo logo-post" width="160px">
+        <a href="<?php echo home_url(); ?>" title="Home page | OCMD LLC"><img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo logo-post" width="160px"></a>
         <?php elseif( is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php', 'upsells/page-1-jars-drc-downsell.php', 'upsells/page-3-jars-drc-downsell.php', 'upsells/page-3-jars-drc-upsell.php', 'upsells/page-6-jars-drc-downsell.php') ) ): ?>
         <div class="row">
           <div class="col-md-4">
-            <img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo">
+            <a href="<?php echo home_url(); ?>" title="Home page | OCMD LLC"><img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo" ></a>
           </div>
           <div class="col-md-8">
             <h2>Wait! Your Order Is Not Complete!</h2>
