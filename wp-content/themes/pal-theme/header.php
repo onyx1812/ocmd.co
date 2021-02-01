@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script>
-      console.log('11111111111');
-      document.body.classList.contains('wfacp_main_wrapper');
-      // 'https://ocmd.co/wp-content/themes/pal-theme/offer/css/woofunnels.css'
-    </script>
 
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="keywords" content="<?php bloginfo('keywords'); ?>"/>
