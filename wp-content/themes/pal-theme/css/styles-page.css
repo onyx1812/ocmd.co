@@ -1178,11 +1178,29 @@ p {
   .main-footer form {
     display: -webkit-box;
     display: flex;
-    width: 100%;
-    margin-bottom: 30px; }
+    width: 600px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
     @media (min-width: 768px) {
       .main-footer form {
-        margin-bottom: 137px; } }
+        margin-bottom: 60px; } }
+    .main-footer form input {
+      height: 40px;
+      font-size: 13px; }
+      @media (min-width: 768px) {
+        .main-footer form input {
+          font-size: 15px; } }
+      .main-footer form input[name="s_email"] {
+        height: 50px; }
+        .main-footer form input[name="s_email"] + [type="submit"] {
+          height: 50px;
+          font-size: 13px; }
+          @media (min-width: 768px) {
+            .main-footer form input[name="s_email"] + [type="submit"] {
+              font-size: 16px; } }
   .main-footer h4 {
     font-size: 18px;
     line-height: 22px;
@@ -1198,6 +1216,20 @@ p {
   .main-footer .footer-menu li {
     padding: 5px 0; }
 
+.subscribe-part h2 {
+  font-size: 24px;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .subscribe-part h2 {
+      font-size: 40px; } }
+
+.subscribe-part p {
+  font-size: 12px !important;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .subscribe-part p {
+      font-size: 18px !important; } }
+
 form input, form textarea, form select {
   display: block;
   width: 100%;
@@ -1209,11 +1241,7 @@ form input, form textarea, form select {
   height: 55px; }
   @media (min-width: 768px) {
     form input, form textarea, form select {
-      font-size: 18px; }
-      form input[name="s_email"], form textarea[name="s_email"], form select[name="s_email"] {
-        height: 70px; }
-        form input[name="s_email"] + [type="submit"], form textarea[name="s_email"] + [type="submit"], form select[name="s_email"] + [type="submit"] {
-          height: 70px; } }
+      font-size: 18px; } }
   form input[type="submit"], form textarea[type="submit"], form select[type="submit"] {
     border: none;
     background: #E6BEAF;
@@ -1514,3 +1542,95 @@ ul.products .product-desc {
     .page-default ul li {
       margin: 15px 0;
       font-size: 18px; }
+
+.woocommerce-account {
+  font-size: 14px;
+  color: #3A3C48; }
+  .woocommerce-account span, .woocommerce-account em, .woocommerce-account p {
+    font-size: 14px; }
+  .woocommerce-account p {
+    color: #3A3C48; }
+  .woocommerce-account h1.section-title {
+    font-size: 20px;
+    margin-bottom: 5px; }
+    @media (min-width: 768px) {
+      .woocommerce-account h1.section-title {
+        font-size: 30px; } }
+  .woocommerce-account .woocommerce-Address {
+    width: 100%;
+    max-width: 100%;
+    padding: 0; }
+  .woocommerce-account nav.woocommerce-MyAccount-navigation ul {
+    display: block;
+    list-style-type: none;
+    margin: 0 0 20px;
+    padding: 0;
+    -webkit-box-align: center;
+            align-items: center;
+    border-radius: 4px; }
+  .woocommerce-account nav.woocommerce-MyAccount-navigation li {
+    padding: 0;
+    margin: 5px 0;
+    display: inline-block; }
+    .woocommerce-account nav.woocommerce-MyAccount-navigation li:not(:first-child) {
+      border-left: 1px solid #fff; }
+  .woocommerce-account nav.woocommerce-MyAccount-navigation a {
+    background: #fe6f61;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    display: block;
+    font-size: 15px;
+    border-radius: 2px; }
+    .woocommerce-account nav.woocommerce-MyAccount-navigation a:hover {
+      opacity: .75; }
+  .woocommerce-account .woocommerce form {
+    max-width: 600px; }
+    .woocommerce-account .woocommerce form button[type="submit"] {
+      border: none; }
+    .woocommerce-account .woocommerce form input, .woocommerce-account .woocommerce form textarea, .woocommerce-account .woocommerce form select {
+      font-size: 14px;
+      height: 40px;
+      padding: 0 10px; }
+    .woocommerce-account .woocommerce form label {
+      font-size: 14px;
+      margin-bottom: 2px; }
+    .woocommerce-account .woocommerce form input[type="checkbox"] {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      vertical-align: middle; }
+      .woocommerce-account .woocommerce form input[type="checkbox"] + span {
+        display: inline-block; }
+  .woocommerce-account .woocommerce form.login {
+    max-width: 400px;
+    display: block; }
+    .woocommerce-account .woocommerce form.login input[type="checkbox"] {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      vertical-align: middle; }
+      .woocommerce-account .woocommerce form.login input[type="checkbox"] + span {
+        display: inline-block; }
+    .woocommerce-account .woocommerce form.login .woocommerce-form-login__rememberme {
+      display: block;
+      margin-bottom: 15px; }
+  .woocommerce-account .woocommerce p {
+    margin-bottom: 10px; }
+  .woocommerce-account .woocommerce a {
+    color: #3A3C48; }
+  .woocommerce-account .woocommerce table {
+    border: 1px solid #3A3C48; }
+    .woocommerce-account .woocommerce table td, .woocommerce-account .woocommerce table th {
+      border: 1px solid #3A3C48;
+      padding: 15px; }
+    .woocommerce-account .woocommerce table th {
+      background: #fe6f61;
+      color: #fff; }
+  .woocommerce-account .woocommerce h2 {
+    margin: 25px 0 15px;
+    font-weight: 700;
+    font-size: 18px; }
+    @media (min-width: 768px) {
+      .woocommerce-account .woocommerce h2 {
+        font-size: 26px; } }

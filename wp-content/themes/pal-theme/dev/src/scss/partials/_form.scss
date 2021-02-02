@@ -10,12 +10,6 @@ form{
 		height: 55px;
 		@media(min-width:768px){
 			font-size: 18px;
-			&[name="s_email"]{
-				height: 70px;
-				& + [type="submit"]{
-					height: 70px;
-				}
-			}
 		}
 		&[type="submit"]{
 			border:none;

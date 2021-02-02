@@ -1,12 +1,14 @@
     <?php if( !is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php', 'upsells/page-1-jars-drc-downsell.php', 'upsells/page-3-jars-drc-downsell.php', 'upsells/page-3-jars-drc-upsell.php', 'upsells/page-6-jars-drc-downsell.php', 'offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php') ) ): ?>
     <footer class="main-footer">
       <div class="container">
-        <h2 class="section-title">Subscribe to our newsletters</h2>
-        <p class="text-center">Receive Updates about New Products and Special Deals.</p>
-        <form class="sform" id="sForm">
-          <input type="email" name="s_email" id="s_email" placeholder="Your Email Address">
-          <input type="submit" value="subscribe">
-        </form>
+        <div class="subscribe-part">
+          <h2>Subscribe to our newsletters</h2>
+          <p>Receive Updates about New Products and Special Deals.</p>
+          <form class="sform" id="sForm">
+            <input type="email" name="s_email" id="s_email" placeholder="Your Email Address">
+            <input type="submit" value="subscribe">
+          </form>
+        </div>
         <div class="row">
           <div class="col">
             <a href="<?php echo home_url(); ?>" class="logo"><img src="<?php echo IMG.'/logo.svg'; ?>" alt=""></a>

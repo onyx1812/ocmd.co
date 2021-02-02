@@ -18,6 +18,8 @@ wp-content/wp-cache-config.php
 # wp-content/advanced-cache.php
 # wp-content/uploads/wc-logs/
 
+wp-content/plugins/
+
 wp-content/uploads/woofunnels/
 wp-content/uploads/woofunnels
 
