@@ -158,4 +158,11 @@
       }
     }
   }
+  .title-login{
+    text-align: center;
+    & + form{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }

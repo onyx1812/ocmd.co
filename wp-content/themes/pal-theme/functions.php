@@ -386,3 +386,15 @@ function product_offer($id, $q, $best){
 // // Hooking up our functions to WordPress filters
 // add_filter( 'wp_mail_from', 'wpb_sender_email' );
 // add_filter( 'wp_mail_from_name', 'wpb_sender_name' );
+
+
+add_filter( 'woocommerce_product_loop_title_classes', 'custom_woocommerce_product_loop_title_classes' );
+/**
+ * Replace default WooCommerce product title class with a custom one.
+ *
+ * @param string $class Existing class(es).
+ * @return string Modified class(es).
+ */
+function custom_woocommerce_product_loop_title_classes( $class ) {
+  return 'new-class'; // set your desired class here.
+}
