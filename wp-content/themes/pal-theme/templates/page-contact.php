@@ -14,7 +14,7 @@ while ( have_posts() ) : the_post();
     <p>&nbsp;</p>
     <p>
       Give Us a Call: <br>
-      America: <a href="tel:8772310127">(877) 231-0127</a>
+      America: <a href="tel:8663414691">(866) 341-4691</a>
     </p>
     <h4>Or Drop a message:</h4>
     <form class="contact row" id="contact">

@@ -60,7 +60,7 @@ while ( have_posts() ) : the_post();
       </div>
       <div class="text">
         <h2>My Promise To You</h2>
-        <p>As “America’s Favorite Dermatologist” I developed this skin care line to deliver clinical-grade results to any woman who wants to look and feel her best. If for any reason you are unsatisfied with your purchase you can contact us for a full refund, no-questions asked, for a full 90 days. Simply contact us at <a href="mailto:support@ocmd.co" target="_blank">support@ocmd.co</a> or by calling <a href="tel:8772310127">(877) 231-0127</a> and one of my lovely customer care specialists will assist you in receiving a prompt and courteous refund.</p>
+        <p>As “America’s Favorite Dermatologist” I developed this skin care line to deliver clinical-grade results to any woman who wants to look and feel her best. If for any reason you are unsatisfied with your purchase you can contact us for a full refund, no-questions asked, for a full 90 days. Simply contact us at <a href="mailto:support@ocmd.co" target="_blank">support@ocmd.co</a> or by calling <a href="tel:8663414691">(866) 341-4691</a> and one of my lovely customer care specialists will assist you in receiving a prompt and courteous refund.</p>
         <p>Sincerely, Dr. Tess Mauricio <br> Orange County MD</p>
       </div>
     </div>
