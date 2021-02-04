@@ -75,7 +75,7 @@
         <?php else: ?>
         <div class="row">
           <div class="col-md-3 col-7">
-            <img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo">
+            <a href="<?php echo home_url(); ?>" title="Home page | OCMD LLC"><img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo"></a>
           </div>
           <div class="col-md-2 col-5 order-md-2">
             <div class="mini-cart">
