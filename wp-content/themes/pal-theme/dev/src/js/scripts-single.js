@@ -18,25 +18,6 @@ const sliderResults = tns({
   nav: false,
 });
 
-// const sliderReviews = tns({
-//   container: '#sliderReviews',
-//   items: 1,
-//   speed: 1000,
-//   autoplay: true,
-//   autoplayHoverPause: true,
-//   autoplayTimeout: 3500,
-//   arrowKeys: true,
-//   swipeAngle: false,
-//   axis: "horizontal",
-//   autoplayButtonOutput: false,
-//   nav: false,
-//   responsive: {
-//     992: {
-//       items: 3
-//     }
-//   }
-// });
-
 const productQuantity = document.querySelectorAll('[name="p_quantity"]');
 productQuantity.forEach(item => {
   item.addEventListener('change', function(e){

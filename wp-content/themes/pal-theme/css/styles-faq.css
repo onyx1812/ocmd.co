@@ -1230,6 +1230,10 @@ p {
     .subscribe-part p {
       font-size: 18px !important; } }
 
+.subscribe-part input[type='email'] {
+  -webkit-transition: 1s ease;
+  transition: 1s ease; }
+
 form input, form textarea, form select {
   display: block;
   width: 100%;
