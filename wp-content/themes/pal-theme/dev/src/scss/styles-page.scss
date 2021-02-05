@@ -175,6 +175,12 @@
     font-size: 20px;
     margin-bottom: 10px;
   }
+  input:read-only {
+    border: none;
+    padding: 0 !important;
+    height: auto !important;
+    margin-bottom: 15px;
+  }
 }
 
 
@@ -183,8 +189,4 @@
 .woocommerce-MyAccount-navigation-link--edit-address,
 .woocommerce-MyAccount-navigation-link--payment-methods{
   display: none !important;
-}
-
-input:read-only {
-  opacity: .7;
 }
