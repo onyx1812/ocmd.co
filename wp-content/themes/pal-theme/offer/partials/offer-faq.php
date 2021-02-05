@@ -19,14 +19,14 @@
       <div class="faq">
         <div class="question">How Long Does 1 Bottle Last?</div>
         <div class="answer">
-          Using OCMD twice a day as recommended (once in the morning and once in the evening before bed), one bottle will last at least 30 days.
+          One bottle will last at least 30 days when used as recommended (twice daily as part of your normal skincare routine).
         </div>
       </div>
       <div class="faq">
         <div class="question">Can I Use Rejuvenation Complex Cream With Other Products?</div>
         <div class="answer">
           Absolutely! Our formulations is designed with work with any skincare routine, and will compliment whatever you are already doing. It is so effective, many ladies end up not needing other products. <br><br>
-          We do recomend that you allow at least 15 minutes before applying makeup after apply Rejuvenation Complex Cream. The times allows your skin to fully absorb the skin-replenishing nutrients and moisturizers. <br><br>
+          We do recommend that you allow at least 15 minutes before applying makeup after apply Rejuvenation Complex Cream. The times allows your skin to fully absorb the skin-replenishing nutrients and moisturizers. <br><br>
           When you apply your makeup it will look and feel just like normal.
         </div>
       </div>

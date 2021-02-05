@@ -97,7 +97,7 @@
               </li>
               <li>
                 <h5>Restores Dreamy, Glowing, Radiant Skin</h5>
-                <p>Watch as your youthful skin reawakens and your radiant spark returns once again to make even women half your age look at your with envy.</p>
+                <p>Watch as your youthful skin reawakens and your radiant spark returns once again to make even women half your age look at you with envy.</p>
               </li>
               <li>
                 <h5>Supercharge Your Anti-Aging Routine</h5>
