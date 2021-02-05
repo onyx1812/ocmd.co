@@ -4,27 +4,17 @@
     <div class="faq-box">
       <div class="faq active">
         <div class="question">How Long Until I see Results?</div>
-        <div class="answer">
-          Many ladies see and feel skin that is smoother and firmer after the very first use but of course the best (and longer lasting) results come from daily, consistent use. <br><br>
-          That’s why having a 1-month supply of OCMD’s Rejuvenation Complex Cream is good but having a 3-month or a 6-month supply is EVEN BETTER. <br><br>
-          Our ladies report visibly younger, smoother skin in 21 days or less, but the breathtaking transformations come from using OCMD every day as part of their skincare routine. <br><br>
-          This is why we put together bigger discounts for ladies who want to enjoy their new, ageless look around the clock.
-        </div>
+        <div class="answer">Some ladies notice smoother and tighter skin after the first use, but the best and most lasting results always come from making it part of your daily skin care routine. <br><br> That's why we offer convenient and cost-saving 3 and 6-month supplies, to make it easy and affordable for ladies who want to get back their spark and keep it forever.</div>
       </div>
       <div class="faq">
         <div class="question">Will It Work For Me?</div>
         <div class="answer">
-          Yes! OCMD’s Rejuvenation Complex Cream is science-backed to work for men and women of any age, no matter their skin tone or what their skincare routine is right now.
+          Dr. Tess and the entire Orange County MD team worked to develop a science-backed product to work for women of any age, any skin tone, and no matter what your skincare routine is right now.
         </div>
       </div>
       <div class="faq">
         <div class="question">What If It Doesn’t Work For Me?</div>
-        <div class="answer">
-          Our industry-best 90 day “Results or It’s Free!” GUARANTEE means that you can try us with confidence knowing that you get the exact kind of results we talk about or you pay nothing.<br><br>
-          We understand you’ll only be convinced once you’ve tried it and seen the difference for yourself. So I want you to feel totally comfortable that you’re not risking a penny when you order today.<br><br>
-          It’s simple: You have three full months to try OCMD. If you’re not totally thrilled by your transformation then simply call or email our team and every penny you’ve spent will be returned.<br><br>
-          You don’t have to send back the empty jars or even provide a reason. You’ll just get a hassle-free refund for the total amount you spend today.
-        </div>
+        <div class="answer">Our team insisted on an industry-best 90 day money-back guarantee. You can try OCMD Rejuvantion Complex Cream with confidence. You either agree it delivers the results we talk about or we will gladly refund your money and part as friends. <br><br> We understand you are need to try it and see the results for yourself, so we want you to feel completely at ease that you aren't risking a penny. <br><br> Quite simply, if you aren't totally thrilled by your transformation then a quick email or phone call is all it takes to get every penny you spent returned. <br><br> You don't even have to give us a reason or send back the empty jars. You'll just get a no-questions-asked refund for what you spend today.</div>
       </div>
       <div class="faq">
         <div class="question">How Long Does 1 Bottle Last?</div>
@@ -35,27 +25,27 @@
       <div class="faq">
         <div class="question">Can I Use Rejuvenation Complex Cream With Other Products?</div>
         <div class="answer">
-          YES! Our formula works beautifully with any skincare regimen and is specially formulated to compliment what our ladies are already doing (although many find they no longer need other “anti-aging” products).<br><br>
-          Apply OCMD Rejuvenation Complex Cream after cleansing, and simply wait 15 minutes for our light, silky cream to fully absorb before using makeup.<br><br>
-          It won’t affect the way your makeup goes on and it won’t change the color or texture of your foundation.
+          Absolutely! Our formulations is designed with work with any skincare routine, and will compliment whatever you are already doing. It is so effective, many ladies end up not needing other products. <br><br>
+          We do recomend that you allow at least 15 minutes before applying makeup after apply Rejuvenation Complex Cream. The times allows your skin to fully absorb the skin-replenishing nutrients and moisturizers. <br><br>
+          When you apply your makeup it will look and feel just like normal.
         </div>
       </div>
       <div class="faq">
         <div class="question">How Can I Order OCMD’s Rejuvenation Complex Cream?</div>
         <div class="answer">
-          It’s EASY. Just select your chosen supply (1-month, 3-month and 6-month) and select whether you want to subscribe & save (have that same amount delivered every month) or one-time purchase (you will ONLY be billed for this order). Then complete the checkout process to complete your order. <br><br> Your order will be in your hands in 1-5 days.
+          It’s SO SIMPLE. Just select your discount and supply (1-month, 3-month and 6-month) and choose whether you want to subscribe & save (have that same amount delivered every month) or one-time purchase (you will ONLY be billed for this order).  <br><br> Complete the safe & secure checkout process and your order will be in your hands in 1-5 days.
         </div>
       </div>
       <div class="faq">
         <div class="question">Is Ordering Safe & Secure?</div>
         <div class="answer">
-          YES. We take your privacy very seriously. We use several advanced security measures to maintain the safety of your personal information.
+          YES. Your privacy and security are very imporant to use. We use industry-standard security measures to make sure your personal information is safe & secure.
         </div>
       </div>
       <div class="faq">
         <div class="question">When Will My Order Arrive?</div>
         <div class="answer">
-          OCMD prides itself on fast, efficient deliveries to all households in the US. We ship directly from our state-of-the-art facilities here in the US so your order will be with you in 1-5 days.
+          We take pride in fast, hassle-free deliveries anywhere in the US. With two strategically-located fulfillment centers, your order will be with in your hands in 1-5 days.
         </div>
       </div>
     </div>
