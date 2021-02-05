@@ -76,6 +76,11 @@
       &:not(:first-child){
         border-left: 1px solid #fff;
       }
+      &.is-active{
+        a{
+          background-color: #3a3c48;
+        }
+      }
     }
     a{
       background: #fe6f61;
@@ -173,8 +178,4 @@
 .woocommerce-MyAccount-navigation-link--edit-address,
 .woocommerce-MyAccount-navigation-link--payment-methods{
   display: none !important;
-}
-
-li.woocommerce-MyAccount-navigation-link.is-active a {
-  background: gray;
 }

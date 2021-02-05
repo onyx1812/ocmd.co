@@ -1578,6 +1578,8 @@ ul.products .product-desc {
     display: inline-block; }
     .woocommerce-account nav.woocommerce-MyAccount-navigation li:not(:first-child) {
       border-left: 1px solid #fff; }
+    .woocommerce-account nav.woocommerce-MyAccount-navigation li.is-active a {
+      background-color: #3a3c48; }
   .woocommerce-account nav.woocommerce-MyAccount-navigation a {
     background: #fe6f61;
     text-decoration: none;
@@ -1649,6 +1651,3 @@ ul.products .product-desc {
 .woocommerce-MyAccount-navigation-link--edit-address,
 .woocommerce-MyAccount-navigation-link--payment-methods {
   display: none !important; }
-
-li.woocommerce-MyAccount-navigation-link.is-active a {
-  background: gray; }
