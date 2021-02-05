@@ -69,6 +69,18 @@
       align-items: center;
       border-radius: 4px;
     }
+    a{
+      background: #fe6f61;
+      text-decoration: none;
+      color: #fff;
+      padding: 5px 10px;
+      display: block;
+      font-size: 15px;
+      border-radius: 2px;
+      &:hover{
+        opacity: .75;
+      }
+    }
     li{
       padding: 0;
       margin: 5px 0;
@@ -80,18 +92,6 @@
         a{
           background-color: #3a3c48;
         }
-      }
-    }
-    a{
-      background: #fe6f61;
-      text-decoration: none;
-      color: #fff;
-      padding: 5px 10px;
-      display: block;
-      font-size: 15px;
-      border-radius: 2px;
-      &:hover{
-        opacity: .75;
       }
     }
   }
@@ -170,6 +170,11 @@
       margin-right: auto;
     }
   }
+  legend{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 }
 
 
@@ -178,4 +183,8 @@
 .woocommerce-MyAccount-navigation-link--edit-address,
 .woocommerce-MyAccount-navigation-link--payment-methods{
   display: none !important;
+}
+
+input:read-only {
+  opacity: .7;
 }
