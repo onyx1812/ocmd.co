@@ -1649,3 +1649,6 @@ ul.products .product-desc {
 .woocommerce-MyAccount-navigation-link--edit-address,
 .woocommerce-MyAccount-navigation-link--payment-methods {
   display: none !important; }
+
+li.woocommerce-MyAccount-navigation-link.is-active a {
+  background: gray; }
