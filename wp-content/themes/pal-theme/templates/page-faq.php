@@ -32,7 +32,7 @@ while ( have_posts() ) : the_post(); ?>
       <div class="faqs">
         <div class="faq">
           <div class="question">How long does it take to see results?</div>
-          <div class="answer">For most people, visible results will be seen within 2-4 weeks in most cases.</div>
+          <div class="answer">For most people, visible results will be seen within 2-4 weeks in most cases. Note that results may vary by individual.</div>
         </div>
         <div class="faq">
           <div class="question">Was Rejuvenation tested on animals?</div>
