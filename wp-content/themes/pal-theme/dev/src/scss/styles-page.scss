@@ -166,3 +166,11 @@
     }
   }
 }
+
+
+.woocommerce-MyAccount-navigation-link--dashboard,
+.woocommerce-MyAccount-navigation-link--downloads,
+.woocommerce-MyAccount-navigation-link--edit-address,
+.woocommerce-MyAccount-navigation-link--payment-methods{
+  display: none !important;
+}
