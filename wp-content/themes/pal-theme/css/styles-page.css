@@ -1591,7 +1591,7 @@ ul.products .product-desc {
     .woocommerce-account nav.woocommerce-MyAccount-navigation li.is-active a {
       background-color: #3a3c48; }
   .woocommerce-account .woocommerce form {
-    max-width: 600px; }
+    max-width: 100%; }
     .woocommerce-account .woocommerce form button[type="submit"] {
       border: none; }
     .woocommerce-account .woocommerce form input, .woocommerce-account .woocommerce form textarea, .woocommerce-account .woocommerce form select {
@@ -1659,6 +1659,10 @@ ul.products .product-desc {
     padding: 0 !important;
     height: auto !important;
     margin-bottom: 15px; }
+  .woocommerce-account .woocommerce-MyAccount-content, .woocommerce-account .woocommerce-MyAccount-navigation {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto; }
 
 .woocommerce-MyAccount-navigation-link--dashboard,
 .woocommerce-MyAccount-navigation-link--downloads,

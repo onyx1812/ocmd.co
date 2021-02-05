@@ -97,7 +97,7 @@
   }
   .woocommerce{
     form{
-      max-width: 600px;
+      max-width: 100%;
       button[type="submit"]{
         border:none;
       }
@@ -180,6 +180,11 @@
     padding: 0 !important;
     height: auto !important;
     margin-bottom: 15px;
+  }
+  .woocommerce-MyAccount-content, .woocommerce-MyAccount-navigation{
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 
