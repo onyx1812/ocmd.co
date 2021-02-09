@@ -1,67 +1,46 @@
+<?php
+$testimonials = [
+  [
+    "title" => "Does Just What It Says",
+    "description" => "“This cream is lovely to use. Its rich and creamy texture is just what I needed to lift my skin and to lift my spirits. Using this cream is a luxury as it does just what it says on the pot, and leaves my skin moisturised, supple and firmer.”",
+    "name" => "Eileen B."
+  ],
+  [
+    "title" => "Crows Feet And Brow Lines Have Faded, [Skin] Texture Is Improved…",
+    "description" => "“I am entering my 70th year this month. I have been using [the cream] for about 6 weeks. Crow’s feet have faded, horizontal brow lines have faded. Skin texture has significantly improved.”",
+    "name" => "Joy M."
+  ],
+  [
+    "title" => "Reduced Fine Lines In Only 4 Days… ",
+    "description" => "“I really love this product. I have only been using for 4 days, but it has cleared up blemishes, and reduced some fine lines around my mouth and eyes. I ordered the booster serum to go with it. Cannot wait to see the difference in a month from now!”",
+    "name" => "Mikaela N."
+  ],
+  [
+    "title" => "At First I Was Skeptical, But Then…",
+    "description" => "“At first I was skeptical reading reviews online. But my skepticism was short lived. I am now on to my 3rd jar, my skin feels softer, smoother and looks rejuvenated. I have had compliments passed about my skin.”",
+    "name" => "Susan B."
+  ],
+  [
+    "title" => "Greatly Improved Areas About My Eyes, Forehead, and Mouth",
+    "description" => "“This is an amazing product this is my third jar of the age defying cream. I am 59 years old and have noticed a much improved difference in my skin. It looks brighter and has greatly improved areas around my eyes, forehead and mouth. I will definitely continue with this cream it's worth every penny!!!” ”",
+    "name" => "Kathryn S."
+  ]
+];
+?>
 <section class="testi">
   <div class="container">
     <h2>OCMD <br> Customer Testimonials</h2>
     <p>*Results may vary by individual</p>
     <div class="testi-sec">
-      <div class="testi-bx">
-        <span>L</span>
-        <h3>Didn’t Expect A Big Difference BUT…</h3>
-        <ul class="stars-rating">
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-        </ul>
-        <p>“I was wrong. After a couple of weeks I’ve felt the skin around my face and neck really tighten. The soft,
-          saggy skin is much less crepey looking. It works on my hands too. I’ll run out faster but it’s worth it!”
-        </p>
-        <p class="testi-txt3">Linda M</p>
-      </div>
-      <div class="testi-bx">
-        <span>M</span>
-        <h3>Feeling The Skin Tighten In A Good Way!</h3>
-        <ul class="stars-rating">
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-        </ul>
-        <p>“Smells amazing and goes on smooth. It has saved my skin. I used to worry how I looked every time I left
-          the house and now thanks to Dr. J and OCMD all my elderly anxiety has gone!”</p>
-        <p class="testi-txt3">Martha E</p>
-      </div>
-      <div class="testi-bx">
-        <span>S</span>
-        <h3>My Confidence Is FINALLY Back!</h3>
-        <ul class="stars-rating">
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-        </ul>
-        <p>“After a rough divorce I was really trying everything to feel good about myself and to be honest, not much
-          was working. A friend sent me to OCMD to get their cream and every week I continue to be amazed by the
-          results. I’m 55 now and feel in a better place than I did in my 30’s and 40’s.”</p>
-        <p class="testi-txt3">Shay D</p>
-      </div>
-      <div class="testi-bx">
-        <span>J</span>
-        <h3>I’ve Found What Works</h3>
-        <ul class="stars-rating">
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-          <li class="stars-f"></li>
-        </ul>
-        <p>“On the eighth day I did a picture comparison and my skin looks much more vibrant. It glows and friends
-          tell me they can see a remarkable difference. I will never switch to anything else. I’ve found what works!”
-        </p>
-        <p class="testi-txt3">Joanna B</p>
-      </div>
+      <?php foreach ($testimonials as $testi): ?>
+        <div class="testi-bx">
+          <span><?php echo $testi["name"][0]; ?></span>
+          <h3><?php echo $testi["title"]; ?></h3>
+          <ul class="stars-rating"><li class="stars-f"></li><li class="stars-f"></li><li class="stars-f"></li><li class="stars-f"></li><li class="stars-f"></li></ul>
+          <p><?php echo $testi["description"]; ?></p>
+          <p class="testi-txt3"><?php echo $testi["name"]; ?></p>
+        </div>
+      <?php endforeach; ?>
     </div>
   </div>
 </section>
