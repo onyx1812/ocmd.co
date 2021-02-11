@@ -1183,10 +1183,13 @@ body, html {
 
 .list-resp {
   text-align: center;
-  margin-bottom: 30px; }
-  .list-resp img {
-    display: inline-block;
-    margin-bottom: 5px; }
+  margin-bottom: 30px;
+}
+.list-resp img {
+  display: inline-block;
+  margin-bottom: 5px;
+  width: 28px;
+}
   .list-resp h5 {
     font-size: 18px;
     line-height: 22px;
@@ -1245,8 +1248,10 @@ body, html {
       .list-types li {
         font-size: 24px;
         line-height: 28px; } }
-    .list-types li img {
-      margin-right: 15px; }
+.list-types li img {
+  margin-right: 5px;
+  width: 50px;
+}
 
 .list-benef:before {
   content: "";
