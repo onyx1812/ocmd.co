@@ -2,7 +2,7 @@
   <div class="container">
     <div class="resp">
       <div class="resp-sidebar  useLi">
-        <h3 class="resp-title">Discover OCMD’s<br><span>Age-Defying Magic</span></h3>
+        <h3 class="resp-title">See How OCMD<br><span>Can Change <br> Your Life</span></h3>
         <ul class="resp-nav">
           <li data-resp="resp1" class="active">Product Details</li>
           <li data-resp="resp2">Benefits</li>
@@ -22,12 +22,12 @@
             <img src="<?php echo OFFER; ?>/img/prd-det-prod-new.png" alt="">
           </div>
         </div>
-        <h4>Experience The Breathtaking Transformation</h4>
+        <h4>The 4 Steps to Revitalization</h4>
         <div class="row list-resp">
-          <div class="col-6 col-lg-3">
-            <img src="<?php echo OFFER; ?>/img/trans-list-icn1.png" alt="">
-            <h5>Refresh</h5>
-            <p>Quickly energize your skin.</p>
+        <div class="col-6 col-lg-3">
+            <img src="<?php echo OFFER; ?>/img/trans-list-icn3.png" alt="">
+            <h5>Renew</h5>
+            <p>Experience youthful, radiant skin that lasts.</p>
           </div>
           <div class="col-6 col-lg-3">
             <img src="<?php echo OFFER; ?>/img/trans-list-icn2.png" alt="">
@@ -35,25 +35,21 @@
             <p>See your "inner glow" in just days.</p>
           </div>
           <div class="col-6 col-lg-3">
-            <img src="<?php echo OFFER; ?>/img/trans-list-icn3.png" alt="">
-            <h5>Renew</h5>
-            <p>Experience youthful, radiant skin that lasts.</p>
-          </div>
-          <div class="col-6 col-lg-3">
             <img src="<?php echo OFFER; ?>/img/trans-list-icn4.png" alt="">
             <h5>Regain</h5>
             <p>Get back your inner spark.</p>
           </div>
+          <div class="col-6 col-lg-3">
+            <img src="<?php echo OFFER; ?>/img/trans-list-icn1.png" alt="">
+            <h5>Refresh</h5>
+            <p>Quickly energize your skin.</p>
+          </div>
         </div>
-        <h4>Works On All Skin Types</h4>
+        <h4>Great For All Skin Types</h4>
         <ul class="list-types">
           <li>
             <img src="<?php echo OFFER; ?>/img/skn-typ-lst-icn1.png">
             Normal
-          </li>
-          <li>
-            <img src="<?php echo OFFER; ?>/img/skn-typ-lst-icn2.png">
-            Oily
           </li>
           <li>
             <img src="<?php echo OFFER; ?>/img/skn-typ-lst-icn3.png">
@@ -66,6 +62,10 @@
           <li>
             <img src="<?php echo OFFER; ?>/img/skn-typ-lst-icn5.png">
             Sensitive
+          </li>
+          <li>
+            <img src="<?php echo OFFER; ?>/img/skn-typ-lst-icn2.png">
+            Oily
           </li>
         </ul>
         <h4>“Finally, Any Woman Can Enjoy Youthful Skin And Reclaim Their Spark”</h4>
