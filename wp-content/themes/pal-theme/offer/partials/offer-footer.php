@@ -20,7 +20,7 @@
       is not a substitute for professional treatment or diagnosis. These statements have not been evaluated by the
       Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
     </div>
-    <div class="footer-copy">2020 © OCMD. All rights reserved.</div>
+    <div class="footer-copy">2021 © OCMD. All rights reserved.</div>
   </div>
 </footer>
 
