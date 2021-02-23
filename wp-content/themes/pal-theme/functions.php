@@ -368,3 +368,20 @@ function custom_woocommerce_auto_complete_order( $order_id ) {
     $order = wc_get_order( $order_id );
     $order->update_status( 'completed' );
 }
+
+
+
+
+
+
+add_filter( 'woocommerce_default_address_fields', 'customising_checkout_fields', 1000, 1 );
+function customising_checkout_fields( $address_fields ) {
+    $address_fields['email']['required'] = true;
+    $address_fields['first_name']['required'] = true;
+    $address_fields['last_name']['required'] = true;
+    $address_fields['city']['required'] = true;
+    $address_fields['state']['required'] = true;
+    $address_fields['postcode']['required'] = true;
+
+    return $address_fields;
+}
