@@ -41,12 +41,9 @@
       'https://connect.facebook.net/en_US/fbevents.js'
     );
       fbq('init', '2456495754645366');
+      fbq('init', '1052930321870211');
       fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=2456495754645366&ev=PageView&noscript=1
-    "
-    /></noscript>
     <!-- End Facebook Pixel Code -->
 
     <?php wp_head(); ?>
