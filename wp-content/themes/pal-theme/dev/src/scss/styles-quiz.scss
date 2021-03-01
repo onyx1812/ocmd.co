@@ -1,0 +1,44 @@
+@import 'variables/colors';
+@import 'base/all';
+
+@import 'partials/main-header';
+@import 'partials/main-footer';
+@import 'partials/form';
+
+.container-fluid{
+	@media(min-width:1600px){
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+}
+
+.page-contact{
+	padding: 50px 0;
+	h3{
+		font-size: 36px;
+		line-height: 48px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	h4{
+		font-size: 24px;
+		line-height: 125.9%;
+		margin-bottom: 30px;
+	}
+	p{
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 125.9%;
+		margin-bottom: 30px;
+		&.text-center{
+			text-align: center;
+		}
+		a{
+			color: $text-color;
+			text-decoration: none;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+}
