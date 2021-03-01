@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Quiz 49
+ * Template Name: Quiz 79
  */
 get_header();
 while ( have_posts() ) : the_post();
