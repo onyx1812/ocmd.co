@@ -14,10 +14,12 @@ while ( have_posts() ) : the_post(); ?>
 	</div>
 </section>
 <script>
-		EF.conversion({
-			offer_id: data.oid,
-			amount: data.amount
-		});
+  fbq('track', 'Purchase', {currency: "USD", value: data.amount});
+
+  EF.conversion({
+    offer_id: data.oid,
+    amount: data.amount
+  });
 </script>
 <?php
 endwhile;
