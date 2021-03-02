@@ -21,7 +21,7 @@ function load_viewed_product() {
 		$categories = (array) wp_list_pluck( $categories_array, 'name' );
 
 		$item = array(
-			'title' => (string) addslashes($product->get_name()),
+			'title' => (string) $product->get_name(),
 			'product_id' => (int) $parent_product_id,
 			'variant_id' => (int) $product->get_id(),
 			'url' => (string) get_permalink( $product->get_id() ),

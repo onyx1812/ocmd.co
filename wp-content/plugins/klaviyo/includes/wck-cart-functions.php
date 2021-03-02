@@ -204,7 +204,7 @@ function wck_insert_checkout_tracking($checkout) {
       'Quantity' => $values['quantity'],
       'ProductID' => $parent_product_id,
       'VariantID' => $product->get_id(),
-      'Name' => addslashes($product->get_name()),
+      'Name' => $product->get_name(),
       'URL' => $product->get_permalink(),
       'Images' => array(
         array(

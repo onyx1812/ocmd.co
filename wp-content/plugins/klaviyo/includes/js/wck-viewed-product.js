@@ -10,7 +10,7 @@
  *   @property {string} image_url - Product image url
  *   @property {float} price - Product price
  *   @property {array} categories - Product categories (array of strings)
- * 
+ *
  * Unfortunately wp_localize_script converts all variables to strings :( so we
  * will have to re-parse ints and floats.
  * See note in - https://codex.wordpress.org/Function_Reference/wp_localize_script

@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 class WCK_API
 {
-    const VERSION = '2.3.4';
+    const VERSION = '2.3.6';
 
     const KLAVIYO_BASE_URL = 'klaviyo/v1';
     const ORDERS_ENDPOINT = 'orders';
