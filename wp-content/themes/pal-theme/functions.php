@@ -76,7 +76,7 @@ function front_scripts() {
   }
 
 //Quiz page template
-  if( is_page_template( array('templates/page-quiz_49.php', 'templates/page-quiz_79.php') ) ){
+  if( is_page_template( 'templates/page-quiz.php' ) ){
     wp_enqueue_style( 'styles', get_template_directory_uri().'/css/styles-quiz.css');
     wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts-quiz.js', false, false, 'in_footer');
   }

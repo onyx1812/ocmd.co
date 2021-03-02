@@ -1,44 +1,82 @@
 @import 'variables/colors';
 @import 'base/all';
 
-@import 'partials/main-header';
-@import 'partials/main-footer';
-@import 'partials/form';
-
-.container-fluid{
-	@media(min-width:1600px){
-		padding-left: 90px;
-		padding-right: 90px;
-	}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+.main-header, .main-footer {
+  display: none;
 }
-
-.page-contact{
-	padding: 50px 0;
-	h3{
-		font-size: 36px;
-		line-height: 48px;
-		margin-bottom: 30px;
-		text-align: center;
-	}
-	h4{
-		font-size: 24px;
-		line-height: 125.9%;
-		margin-bottom: 30px;
-	}
-	p{
-		font-weight: 300;
-		font-size: 18px;
-		line-height: 125.9%;
-		margin-bottom: 30px;
-		&.text-center{
-			text-align: center;
-		}
-		a{
-			color: $text-color;
-			text-decoration: none;
-			&:hover{
-				text-decoration: underline;
-			}
-		}
-	}
+.page-quiz {
+  width: 450px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+  @media(min-width: 768px){
+    padding: 60px 0;
+  }
+  h3{
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 15px;
+    @media(min-width: 768px){
+      font-size: 18px;
+    }
+  }
+  input[type="radio"]{
+    display: none;
+    &:checked + label{
+      background: #FFF7EA;
+      border-color: #DEDEDE;
+      &:before{
+        background-color: #E39A35;
+      }
+    }
+  }
+  ul{
+    margin-bottom: 30px;
+  }
+  label{
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    display: block;
+    border: 1px solid #DEDEDE;
+    padding: 6px 15px 6px 30px;
+    position: relative;
+    @media(min-width: 768px){
+      font-size: 14px;
+      line-height: 16px;
+    }
+    &:before{
+      content: "";
+      display: block;
+      width: 13px;
+      height: 13px;
+      position: absolute;
+      border: 1px solid #DEDEDE;
+      background: #fff;
+      left: 10px;
+      border-radius: 50%;
+    }
+  }
+}
+.link{
+  display: block;
+  width: 100%;
+  height: 49px;
+  line-height: 49px;
+  background: linear-gradient(0deg, #5CA42A 0%, #95D741 100%);
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  &:hover{
+    text-decoration: none;
+    opacity: .8;
+  }
 }
