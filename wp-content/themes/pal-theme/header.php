@@ -17,7 +17,6 @@
 
     <script>
       const url = window.location.href;
-      console.log(url);
       if( url == 'http://ocmd.co/shop' || url == 'https://ocmd.co/shop' || url == 'http://www.ocmd.co/shop' || url == 'https://ocmd.co/shop/' ){
         window.location.href = 'https://ocmd.co/#productsSection';
       } else if( url == 'http://ocmd.loc/shop' ){
