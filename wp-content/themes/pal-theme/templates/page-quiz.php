@@ -36,7 +36,7 @@ while ( have_posts() ) : the_post();
       <li><input type="radio" name="r3" id="r3_4"><label for="r3_4">I want a deep, lasting moisturizer</label></li>
       <li><input type="radio" name="r3" id="r3_5"><label for="r3_5">I want to stop the signs of aging from progressing any more</label></li>
     </ul>
-    <a href="https://ocmd.co/campaign-4" class="link">Next Step</a>
+    <a href="<?php the_field('link'); ?>" class="link">Next Step</a>
 
   </div>
 </section>
