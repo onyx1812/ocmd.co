@@ -3,7 +3,7 @@
   <head>
 
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name="keywords" content="<?php bloginfo('keywords'); ?>"/>
+    <meta name="keywords" content="<?php the_field('keywords', 'option'); ?>"/>
     <meta name="description" content="<?php bloginfo('description'); ?>"/>
     <meta name="copyright" content="<?php bloginfo('copyright'); ?>">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
