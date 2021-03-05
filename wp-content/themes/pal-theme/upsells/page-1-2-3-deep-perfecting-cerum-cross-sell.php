@@ -23,7 +23,7 @@ while ( have_posts() ) : the_post();
       <div class="col-md-4">
         <img src="<?php echo UPSELLS; ?>/img/dr.jpg" alt="" width="100%">
         <h5>Dr. Tess Mauricio</h5>
-        <p>Board Certified Dermatologist and Founder of Orange County MD Skin Care</p>
+        <p>Stanford educated Board Certified Dermatologist</p>
       </div>
       <div class="col-md-8">
         <h2><b>Want To Fade Away Your Dark Spots, Even Out Your Complexion, And Provide Maximum Protection For Your Newly Rejuvenated Skin?</b></h2>
