@@ -10,6 +10,9 @@ $id = get_the_ID();
       <div class="row">
         <div class="col-md-8 order-md-2">
           <h1 class="producto-title"><?php the_title(); ?></h1>
+          <div class="producto-sub">
+            <div class="stars"> <ul class="stars-rating"> <li class="stars-f"></li> <li class="stars-f"></li> <li class="stars-f"></li> <li class="stars-f"></li> <li class="stars-f"></li> </ul></div>
+          </div>
           <?php echo $post->post_content; ?>
           <div class="product-price">
             <?php
