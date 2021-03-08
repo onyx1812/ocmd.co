@@ -2531,6 +2531,18 @@ h2 {
     .producto .product-best footer {
       padding-bottom: 30px; }
 
+.producto-default h1 {
+  margin-bottom: 10px; }
+
+.producto-default .product-price {
+  margin-top: 15px;
+  margin-bottom: 30px; }
+
+.producto-default .btn {
+  background: #fe6f61;
+  border-radius: 30px;
+  max-width: 300px; }
+
 .tns-item {
   text-align: center; }
   .tns-item img {

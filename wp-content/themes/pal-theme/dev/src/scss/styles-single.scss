@@ -894,6 +894,20 @@ $brown: #6C5D57;
       }
     }
   }
+  &-default{
+    h1{
+      margin-bottom: 10px;
+    }
+    .product-price{
+      margin-top: 15px;
+      margin-bottom: 30px;
+    }
+    .btn{
+      background: #fe6f61;
+      border-radius: 30px;
+      max-width: 300px;
+    }
+  }
 }
 
 .tns-item {
@@ -902,3 +916,5 @@ $brown: #6C5D57;
     display: inline-block;
   }
 }
+
+

@@ -391,3 +391,12 @@ function customising_checkout_fields( $address_fields ) {
 
     return $address_fields;
 }
+
+
+
+
+
+function product_id(){
+  global $product;
+  return $product->id;
+}
