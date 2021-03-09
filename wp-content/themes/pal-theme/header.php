@@ -15,6 +15,8 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico?v=1.00" />
 
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-MVR2TP6"></script>
+
     <script>
       const url = window.location.href;
       if( url == 'http://ocmd.co/shop' || url == 'https://ocmd.co/shop' || url == 'http://www.ocmd.co/shop' || url == 'https://ocmd.co/shop/' ){
