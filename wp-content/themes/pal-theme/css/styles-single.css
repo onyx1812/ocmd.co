@@ -2531,6 +2531,12 @@ h2 {
     .producto .product-best footer {
       padding-bottom: 30px; }
 
+.producto-default .container {
+  padding: 15px; }
+  @media (min-width: 1200px) {
+    .producto-default .container {
+      padding: 15px; } }
+
 .producto-default .producto-title {
   font-size: 26px;
   line-height: 1.4;

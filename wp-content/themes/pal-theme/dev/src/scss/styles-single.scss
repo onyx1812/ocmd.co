@@ -895,6 +895,12 @@ $brown: #6C5D57;
     }
   }
   &-default{
+    .container{
+      padding: 15px;
+      @media(min-width:1200px){
+        padding: 15px;
+      }
+    }
     .producto-title{
       font-size: 26px;
       line-height: 1.4;
