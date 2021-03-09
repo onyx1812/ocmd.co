@@ -807,9 +807,6 @@ p {
   @media (min-width: 768px) {
     .main-header {
       padding-top: 30px; } }
-  @media (min-width: 1200px) {
-    .main-header {
-      padding-top: 60px; } }
   .main-header .row > div {
     display: -webkit-box;
     display: flex;
