@@ -13,7 +13,9 @@ $id = get_the_ID();
           <div class="producto-sub">
             <div class="stars"> <ul class="stars-rating"> <li class="stars-f"></li> <li class="stars-f"></li> <li class="stars-f"></li> <li class="stars-f"></li> <li class="stars-f"></li> </ul></div>
           </div>
-          <?php echo $post->post_content; ?>
+          <div class="producto-desc">
+            <?php echo $post->post_content; ?>
+          </div>
           <div class="product-price">
             <?php
               $product = wc_get_product( $id );
@@ -28,7 +30,20 @@ $id = get_the_ID();
           <div class="producto-sidebar">
             <div class="gallery">
               <img class="gallery-img" src="<?php echo get_the_post_thumbnail_url(); ?>" width="100%">
-            </div>
+              <ul class="gallery-nav">
+                <li data-src="<?php echo get_the_post_thumbnail_url(); ?>">
+                  <img src="<?php echo get_the_post_thumbnail_url(); ?>" >
+                </li>
+                <?php
+                  $attachment_ids = $product->get_gallery_image_ids();
+                  foreach( $attachment_ids as $attachment_id ):
+                    $image = wp_get_attachment_url($attachment_id);
+                ?>
+                  <li data-src="<?php echo $image; ?>">
+                    <img src="<?php echo $image; ?>" >
+                  </li>
+                <?php endforeach; ?>
+              </ul>
           </div>
         </div>
       </div>

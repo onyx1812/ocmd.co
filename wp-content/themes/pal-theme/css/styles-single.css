@@ -2086,12 +2086,12 @@ h2 {
       font-size: 18px;
       line-height: 22px; } }
 
-.producto-desc {
+.producto-desc, .producto-desc p {
   font-size: 15px;
   line-height: 22px;
   margin-bottom: 15px; }
   @media (min-width: 992px) {
-    .producto-desc {
+    .producto-desc, .producto-desc p {
       font-size: 18px;
       line-height: 26px; } }
 
@@ -2149,21 +2149,6 @@ h2 {
   @media (min-width: 992px) {
     .producto .gallery {
       padding: 15px; } }
-  .producto .gallery:before {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 15px;
-    right: 30px;
-    background: url("../img/prd-seal.png") no-repeat center center/100% auto; }
-    @media (min-width: 992px) {
-      .producto .gallery:before {
-        width: 106px;
-        height: 106px;
-        top: 30px;
-        right: 45px; } }
   .producto .gallery-img {
     margin-bottom: 10px; }
     @media (min-width: 992px) {
@@ -2172,11 +2157,17 @@ h2 {
   .producto .gallery-nav {
     display: -webkit-box;
     display: flex;
-    -webkit-box-pack: justify;
-            justify-content: space-between;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    flex-wrap: wrap;
     margin-left: -5px;
     margin-right: -5px; }
     .producto .gallery-nav li {
+      -webkit-box-flex: 1;
+              flex: 1 calc(33.333% - 10px);
+      max-width: calc(33.333% - 10px);
       box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
       background: #fff;
       padding: 5px;
@@ -2188,7 +2179,9 @@ h2 {
       .producto .gallery-nav li:hover {
         box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0 8px 0 rgba(0, 0, 0, 0.4) inset; }
     .producto .gallery-nav img {
+      display: block;
       width: 100%;
+      max-width: 100%;
       pointer-events: none; }
 
 .producto .solutions-title {
@@ -2213,7 +2206,7 @@ h2 {
     -webkit-transform: translate(0, -50%);
             transform: translate(0, -50%); }
   .producto .solutions-title span {
-    background: #F9F5F4;
+    background: #fff;
     padding: 0 10px;
     display: inline-block;
     position: relative;

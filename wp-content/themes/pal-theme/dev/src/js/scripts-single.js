@@ -4,19 +4,22 @@
 //= partials/faq.js
 //= partials/tiny-slider.js
 
-const sliderResults = tns({
-  container: '#sliderResults',
-  items: 1,
-  speed: 1000,
-  autoplay: true,
-  autoplayHoverPause: true,
-  autoplayTimeout: 3500,
-  arrowKeys: true,
-  swipeAngle: false,
-  axis: "horizontal",
-  autoplayButtonOutput: false,
-  nav: false,
-});
+let sliderContainer = document.getElementById('sliderResults');
+if(sliderContainer){
+  const sliderResults = tns({
+    container: '#sliderResults',
+    items: 1,
+    speed: 1000,
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoplayTimeout: 3500,
+    arrowKeys: true,
+    swipeAngle: false,
+    axis: "horizontal",
+    autoplayButtonOutput: false,
+    nav: false,
+  });
+}
 
 const productQuantity = document.querySelectorAll('[name="p_quantity"]');
 productQuantity.forEach(item => {
@@ -30,17 +33,17 @@ productQuantity.forEach(item => {
 });
 
 
-const sizeVariations = document.getElementById('size');
-let customVars;
-for (let i = 1; i < sizeVariations.options.length; i++) {
-  let o = sizeVariations.options[i];
-  if(i==1){
-    customVars = `<li><input type="radio" name="custom_vars" data-value="${o.value}" id="var_${i}"><label for="var_${i}">${o.text}</label></li>`;
-  } else {
-    customVars += `<li><input type="radio" name="custom_vars" data-value="${o.value}" id="var_${i}"><label for="var_${i}">${o.text}</label></li>`;
-  }
-}
-document.querySelector('.mg-variation').innerHTML = customVars;
+// const sizeVariations = document.getElementById('size');
+// let customVars;
+// for (let i = 1; i < sizeVariations.options.length; i++) {
+//   let o = sizeVariations.options[i];
+//   if(i==1){
+//     customVars = `<li><input type="radio" name="custom_vars" data-value="${o.value}" id="var_${i}"><label for="var_${i}">${o.text}</label></li>`;
+//   } else {
+//     customVars += `<li><input type="radio" name="custom_vars" data-value="${o.value}" id="var_${i}"><label for="var_${i}">${o.text}</label></li>`;
+//   }
+// }
+// document.querySelector('.mg-variation').innerHTML = customVars;
 
 const variators = a => {
   const variations = JSON.parse( document.querySelector('.variations_form').dataset.product_variations );
@@ -67,9 +70,9 @@ customVarsoBJ.forEach(item => {
   });
 });
 
-setTimeout( ()=>{
-  document.getElementById('var_1').click();
-}, 0);
+// setTimeout( ()=>{
+//   document.getElementById('var_1').click();
+// }, 0);
 
 const galleryNav = document.querySelectorAll('.gallery-nav li');
 galleryNav.forEach(item => {

@@ -411,7 +411,7 @@ $brown: #6C5D57;
       line-height: 22px;
     }
   }
-  &-desc{
+  &-desc, &-desc p{
     font-size: 15px;
     line-height: 22px;
     margin-bottom: 15px;
@@ -480,20 +480,20 @@ $brown: #6C5D57;
     @media(min-width:992px){
       padding: 15px;
     }
-    &:before{
-      content:'';
-      display: block;
-      width: 60px;
-      height: 60px;
-      position: absolute;
-      top: 15px; right: 30px;
-      background: url('../img/prd-seal.png') no-repeat center center/100% auto;
-      @media(min-width:992px){
-        width: 106px;
-        height: 106px;
-        top: 30px; right: 45px;
-      }
-    }
+    // &:before{
+    //   content:'';
+    //   display: block;
+    //   width: 60px;
+    //   height: 60px;
+    //   position: absolute;
+    //   top: 15px; right: 30px;
+    //   background: url('../img/prd-seal.png') no-repeat center center/100% auto;
+    //   @media(min-width:992px){
+    //     width: 106px;
+    //     height: 106px;
+    //     top: 30px; right: 45px;
+    //   }
+    // }
     &-img{
       margin-bottom: 10px;
       @media(min-width:992px){
@@ -502,10 +502,14 @@ $brown: #6C5D57;
     }
     &-nav{
       display: flex;
-      justify-content: space-between;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
       margin-left: -5px;
       margin-right: -5px;
       li{
+        flex: 1 calc(33.333% - 10px);
+        max-width: calc(33.333% - 10px);
         box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
         background: #fff;
         padding: 5px;
@@ -518,7 +522,9 @@ $brown: #6C5D57;
         }
       }
       img{
+        display: block;
         width: 100%;
+        max-width: 100%;
         pointer-events: none;
       }
     }
@@ -546,7 +552,7 @@ $brown: #6C5D57;
         transform: translate(0, -50%)
       }
       span{
-        background: $lowlight;
+        background: #fff;
         padding: 0 10px;
         display: inline-block;
         position: relative;
