@@ -400,3 +400,44 @@ function product_id(){
   global $product;
   return $product->id;
 }
+
+
+
+
+
+
+/**
+ * Add payment method bulk filter for orders
+ */
+function add_filter_by_payment_method_orders() {
+    global $typenow;
+    if ( 'shop_order' === $typenow ) {
+        // get all payment methods
+        $gateways = WC()->payment_gateways->payment_gateways();
+        ?>
+        <select name="_shop_order_payment_method" id="dropdown_shop_order_payment_method">
+            <option value=""><?php esc_html_e( 'All Payment Methods', 'text-domain' ); ?></option>
+            <?php foreach ( $gateways as $id => $gateway ) : ?>
+            <option value="<?php echo esc_attr( $id ); ?>" <?php echo esc_attr( isset( $_GET['_shop_order_payment_method'] ) ? selected( $id, $_GET['_shop_order_payment_method'], false ) : '' ); ?>>
+                <?php echo esc_html( $gateway->get_method_title() ); ?>
+            </option>
+            <?php endforeach; ?>
+        </select>
+        <?php
+    }
+}
+add_action( 'restrict_manage_posts', 'add_filter_by_payment_method_orders', 99 );
+
+/**
+ * Process bulk filter order for payment method
+ *
+ */
+function add_filter_by_payment_method_orders_query( $vars ) {
+    global $typenow;
+    if ( 'shop_order' === $typenow && isset( $_GET['_shop_order_payment_method'] ) ) {
+        $vars['meta_key']   = '_payment_method';
+        $vars['meta_value'] = wc_clean( $_GET['_shop_order_payment_method'] );
+    }
+    return $vars;
+}
+add_filter( 'request', 'add_filter_by_payment_method_orders_query', 99 );
